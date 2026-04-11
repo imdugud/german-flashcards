@@ -1,9 +1,9 @@
 import { useState, useEffect, useCallback } from 'react';
 import Flashcard from './components/Flashcard';
-import type { VerbCard } from './config/verbs';
-import { verbData } from './data';
+import type { VerbList } from './config/flashcard';
+import verbData from './verb.data.json';
 
-const MOCK_VERBS: VerbCard[] = verbData;
+const MOCK_VERBS: VerbList = verbData as VerbList;
 
 function App() {
   const duration = 5000; // Duration to show the info box (5 seconds)
