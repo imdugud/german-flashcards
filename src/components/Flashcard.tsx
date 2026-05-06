@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import type { VerbCard } from '../config/flashcard';
+import type { VerbCard } from '../data_schema';
 
 interface FlashcardProps {
   card: VerbCard;
