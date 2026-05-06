@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import Flashcard from './components/Flashcard';
-import type { VerbList } from './config/flashcard';
+import type { VerbList } from './data_schema';
 import verbData from './verb.data.json';
 
 const MOCK_VERBS: VerbList = verbData as VerbList;
