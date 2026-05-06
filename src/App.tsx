@@ -6,20 +6,21 @@ import verbData from './verb.data.json';
 const MOCK_VERBS: VerbList = verbData as VerbList;
 
 function App() {
-  const duration = 5000; // Duration to show the info box (5 seconds)
+  //const duration = 5000; // Duration to show the info box (5 seconds)
   const [index, setIndex] = useState(0);
+  const [shuffledCards, setShuffledCards] = useState<VerbList>(MOCK_VERBS);
   const [isFlipped, setIsFlipped] = useState(false);
   
 
   //usecallback usage to memoize the nextCard and prevCard functions, preventing unnecessary re-renders of child components that depend on these functions as props.
   const nextCard = useCallback(() => {
     setIsFlipped(false);
-    setIndex((prev) => (prev + 1) % MOCK_VERBS.length);
+    setIndex((prev) => (prev + 1) % shuffledCards.length);
   }, []);
 
   const prevCard = useCallback(() => {
     setIsFlipped(false);
-    setIndex((prev) => (prev - 1 + MOCK_VERBS.length) % MOCK_VERBS.length);
+    setIndex((prev) => (prev - 1 + shuffledCards.length) % shuffledCards.length);
   }, []);
 
   const toggleFlip = useCallback(() => {
@@ -36,6 +37,10 @@ function App() {
       if (event.code === 'ArrowRight') nextCard();
       if (event.code === 'ArrowLeft') prevCard();
     };
+    
+    // Shuffle cards on initial load
+    setShuffledCards([...MOCK_VERBS].sort(() => Math.random() - 0.5));    
+    setIndex(0); // reset to first card after shuffling
 
     window.addEventListener('keydown', handleKeyDown);
     return () => {
@@ -51,7 +56,7 @@ function App() {
       </div>
       
       <Flashcard 
-        card={MOCK_VERBS[index]} 
+        card={shuffledCards[index]} 
         isFlipped={isFlipped} 
         onFlip={toggleFlip} 
       />
