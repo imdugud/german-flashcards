@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
-import type { VerbCard } from '../config/verbs';
-import { mostUsed100 } from '../data';
+import type { VerbCard } from '../data_schema';
 
 interface FlashcardProps {
   card: VerbCard;
   isFlipped: boolean;
   onFlip: () => void;
 }
-
-console.log('Most Used 100 Verbs:', mostUsed100.length);
 
 function Flashcard({ card, isFlipped, onFlip }: FlashcardProps) {
   return (
@@ -31,17 +28,17 @@ function Flashcard({ card, isFlipped, onFlip }: FlashcardProps) {
             <div className="space-y-4">
               <div>
                 <p className="text-blue-200 text-xs font-bold uppercase tracking-wider">Present (er/sie/es)</p>
-                <p className="text-2xl font-bold">{card.presentThirdPerson}</p>
+                <p className="text-2xl font-bold">{card.forms.present.erSieEs}</p>
               </div>
               <div>
                 <p className="text-blue-200 text-xs font-bold uppercase tracking-wider">Perfect (Partizip II)</p>
-                <p className="text-2xl font-bold">{card.auxiliary} {card.pastParticiple}</p>
+                <p className="text-2xl font-bold">{card.auxiliary} {card.forms.pastParticiple}</p>
               </div>
             </div>
             
             <div className="pt-6 border-t border-blue-500/50">
-              <p className="italic text-lg leading-relaxed">"{card.exampleGerman}"</p>
-              <p className="text-blue-200 text-sm mt-2">({card.exampleEnglish})</p>
+              <p className="italic text-lg leading-relaxed">"{card.examples[0].german}"</p>
+              <p className="text-blue-200 text-sm mt-2">({card.examples[0].english})</p>
             </div>
           </div>
         </div>

@@ -1,0 +1,2902 @@
+[
+  {
+    "id": "v1",
+    "infinitive": "sein",
+    "englishMeaning": "to be",
+    "alternativeMeanings": ["to exist"],
+    "forms": {
+      "infinitive": "sein",
+      "present": { "ich": "bin", "du": "bist", "erSieEs": "ist", "wir": "sind", "ihr": "seid", "sieSie": "sind" },
+      "simplePast": "war",
+      "pastParticiple": "gewesen",
+      "presentParticiple": "seiend",
+      "konjunktivII": "wäre"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "state",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "nominative" },
+    "examples": [
+      { "german": "Ich bin müde.", "english": "I am tired.", "tense": "present" },
+      { "german": "Er war gestern krank.", "english": "He was sick yesterday.", "tense": "simplePast" },
+      { "german": "Sie ist Lehrerin gewesen.", "english": "She has been a teacher.", "tense": "perfect" },
+      { "german": "Wir werden glücklich sein.", "english": "We will be happy.", "tense": "future" }
+    ],
+    "tags": ["essential", "auxiliary", "state"],
+    "notes": "Highly irregular verb; essential auxiliary for perfect tense with motion/state-change verbs. Irregular in all forms."
+  },
+  {
+    "id": "v2",
+    "infinitive": "fahren",
+    "englishMeaning": "to drive / go (by vehicle)",
+    "alternativeMeanings": ["to travel", "to ride"],
+    "forms": {
+      "infinitive": "fahren",
+      "present": { "ich": "fahre", "du": "fährst", "erSieEs": "fährt", "wir": "fahren", "ihr": "fahrt", "sieSie": "fahren" },
+      "simplePast": "fuhr",
+      "pastParticiple": "gefahren",
+      "presentParticiple": "fahrend",
+      "konjunktivII": "führe"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "motion",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich fahre jeden Tag zur Arbeit.", "english": "I drive to work every day.", "tense": "present" },
+      { "german": "Sie fuhr gestern nach Hamburg.", "english": "She drove to Hamburg yesterday.", "tense": "simplePast" },
+      { "german": "Wir sind nach Berlin gefahren.", "english": "We drove to Berlin.", "tense": "perfect" },
+      { "german": "Er wird morgen mit dem Zug fahren.", "english": "He will travel by train tomorrow.", "tense": "future" }
+    ],
+    "tags": ["transport", "travel", "daily routine"],
+    "notes": "Vowel change a → ä in 2nd and 3rd person singular present. Takes 'sein' as auxiliary because it expresses directed motion."
+  },
+  {
+    "id": "v3",
+    "infinitive": "haben",
+    "englishMeaning": "to have",
+    "alternativeMeanings": ["to possess", "to own"],
+    "forms": {
+      "infinitive": "haben",
+      "present": { "ich": "habe", "du": "hast", "erSieEs": "hat", "wir": "haben", "ihr": "habt", "sieSie": "haben" },
+      "simplePast": "hatte",
+      "pastParticiple": "gehabt",
+      "presentParticiple": "habend",
+      "konjunktivII": "hätte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular",
+    "category": "possession",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich habe ein Auto.", "english": "I have a car.", "tense": "present" },
+      { "german": "Er hatte keine Zeit.", "english": "He had no time.", "tense": "simplePast" },
+      { "german": "Wir haben Hunger gehabt.", "english": "We were hungry.", "tense": "perfect" },
+      { "german": "Sie wird bald Urlaub haben.", "english": "She will have vacation soon.", "tense": "future" }
+    ],
+    "tags": ["essential", "auxiliary", "possession"],
+    "notes": "Key auxiliary for perfect tense with most transitive verbs. Irregular in 2nd/3rd singular present."
+  },
+  {
+    "id": "v4",
+    "infinitive": "gehen",
+    "englishMeaning": "to go / walk",
+    "alternativeMeanings": ["to leave", "to work (function)"],
+    "forms": {
+      "infinitive": "gehen",
+      "present": { "ich": "gehe", "du": "gehst", "erSieEs": "geht", "wir": "gehen", "ihr": "geht", "sieSie": "gehen" },
+      "simplePast": "ging",
+      "pastParticiple": "gegangen",
+      "presentParticiple": "gehend",
+      "konjunktivII": "ginge"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "motion",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Ich gehe in die Schule.", "english": "I go to school.", "tense": "present" },
+      { "german": "Sie ging nach Hause.", "english": "She went home.", "tense": "simplePast" },
+      { "german": "Er ist ins Kino gegangen.", "english": "He went to the cinema.", "tense": "perfect" },
+      { "german": "Wir werden spazieren gehen.", "english": "We will go for a walk.", "tense": "future" }
+    ],
+    "tags": ["motion", "daily routine", "essential"],
+    "notes": "Takes 'sein' as auxiliary. Simple past 'ging' is suppletive. Very common in daily speech."
+  },
+  {
+    "id": "v5",
+    "infinitive": "kommen",
+    "englishMeaning": "to come",
+    "alternativeMeanings": ["to arrive", "to reach"],
+    "forms": {
+      "infinitive": "kommen",
+      "present": { "ich": "komme", "du": "kommst", "erSieEs": "kommt", "wir": "kommen", "ihr": "kommt", "sieSie": "kommen" },
+      "simplePast": "kam",
+      "pastParticiple": "gekommen",
+      "presentParticiple": "kommend",
+      "konjunktivII": "käme"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "motion",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Er kommt um acht Uhr.", "english": "He comes at eight o'clock.", "tense": "present" },
+      { "german": "Sie kam gestern an.", "english": "She arrived yesterday.", "tense": "simplePast" },
+      { "german": "Der Zug ist angekommen.", "english": "The train has arrived.", "tense": "perfect" },
+      { "german": "Wann wirst du kommen?", "english": "When will you come?", "tense": "future" }
+    ],
+    "tags": ["motion", "arrival", "essential"],
+    "notes": "Takes 'sein' as auxiliary. Frequently used with prefixes: ankommen, vorkommen, bekommen."
+  },
+  {
+    "id": "v6",
+    "infinitive": "machen",
+    "englishMeaning": "to make / do",
+    "alternativeMeanings": ["to cause", "to create"],
+    "forms": {
+      "infinitive": "machen",
+      "present": { "ich": "mache", "du": "machst", "erSieEs": "macht", "wir": "machen", "ihr": "macht", "sieSie": "machen" },
+      "simplePast": "machte",
+      "pastParticiple": "gemacht",
+      "presentParticiple": "machend",
+      "konjunktivII": "machte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "action",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich mache meine Hausaufgaben.", "english": "I do my homework.", "tense": "present" },
+      { "german": "Er machte einen Fehler.", "english": "He made a mistake.", "tense": "simplePast" },
+      { "german": "Sie hat das Bett gemacht.", "english": "She made the bed.", "tense": "perfect" },
+      { "german": "Was wirst du heute Abend machen?", "english": "What will you do tonight?", "tense": "future" }
+    ],
+    "tags": ["action", "essential", "daily routine"],
+    "notes": "Regular weak verb. One of the most common verbs in German. Used in many fixed expressions."
+  },
+  {
+    "id": "v7",
+    "infinitive": "sagen",
+    "englishMeaning": "to say / tell",
+    "alternativeMeanings": ["to state", "to claim"],
+    "forms": {
+      "infinitive": "sagen",
+      "present": { "ich": "sage", "du": "sagst", "erSieEs": "sagt", "wir": "sagen", "ihr": "sagt", "sieSie": "sagen" },
+      "simplePast": "sagte",
+      "pastParticiple": "gesagt",
+      "presentParticiple": "sagend",
+      "konjunktivII": "sagte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "communication",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Er sagt die Wahrheit.", "english": "He tells the truth.", "tense": "present" },
+      { "german": "Sie sagte nichts.", "english": "She said nothing.", "tense": "simplePast" },
+      { "german": "Was hast du gesagt?", "english": "What did you say?", "tense": "perfect" },
+      { "german": "Ich werde es ihm sagen.", "english": "I will tell him.", "tense": "future" }
+    ],
+    "tags": ["communication", "speech", "essential"],
+    "notes": "Regular weak verb. Often followed by a subordinate clause with 'dass'. Distinguish from 'erzählen' (to narrate) and 'sprechen' (to speak)."
+  },
+  {
+    "id": "v8",
+    "infinitive": "sehen",
+    "englishMeaning": "to see",
+    "alternativeMeanings": ["to look", "to watch"],
+    "forms": {
+      "infinitive": "sehen",
+      "present": { "ich": "sehe", "du": "siehst", "erSieEs": "sieht", "wir": "sehen", "ihr": "seht", "sieSie": "sehen" },
+      "simplePast": "sah",
+      "pastParticiple": "gesehen",
+      "presentParticiple": "sehend",
+      "konjunktivII": "sähe"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "perception",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich sehe einen Vogel.", "english": "I see a bird.", "tense": "present" },
+      { "german": "Sie sah den Film gestern.", "english": "She watched the film yesterday.", "tense": "simplePast" },
+      { "german": "Hast du das gesehen?", "english": "Did you see that?", "tense": "perfect" },
+      { "german": "Wir werden uns bald sehen.", "english": "We will see each other soon.", "tense": "future" }
+    ],
+    "tags": ["perception", "senses", "essential"],
+    "notes": "Vowel change e → ie in 2nd/3rd singular present. Strong verb with irregular simple past 'sah'."
+  },
+  {
+    "id": "v9",
+    "infinitive": "wissen",
+    "englishMeaning": "to know (a fact)",
+    "alternativeMeanings": ["to be aware of"],
+    "forms": {
+      "infinitive": "wissen",
+      "present": { "ich": "weiß", "du": "weißt", "erSieEs": "weiß", "wir": "wissen", "ihr": "wisst", "sieSie": "wissen" },
+      "simplePast": "wusste",
+      "pastParticiple": "gewusst",
+      "presentParticiple": "wissend",
+      "konjunktivII": "wüsste"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular (preterite-present)",
+    "category": "mental",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich weiß die Antwort.", "english": "I know the answer.", "tense": "present" },
+      { "german": "Er wusste es nicht.", "english": "He didn't know it.", "tense": "simplePast" },
+      { "german": "Hast du gewusst, dass er kommt?", "english": "Did you know he was coming?", "tense": "perfect" },
+      { "german": "Niemand wird es wissen.", "english": "Nobody will know.", "tense": "future" }
+    ],
+    "tags": ["mental", "knowledge", "essential"],
+    "notes": "Preterite-present verb: singular present looks like a past tense form. Different from 'kennen' (to know a person/place)."
+  },
+  {
+    "id": "v10",
+    "infinitive": "kennen",
+    "englishMeaning": "to know (a person/place)",
+    "alternativeMeanings": ["to be acquainted with", "to recognize"],
+    "forms": {
+      "infinitive": "kennen",
+      "present": { "ich": "kenne", "du": "kennst", "erSieEs": "kennt", "wir": "kennen", "ihr": "kennt", "sieSie": "kennen" },
+      "simplePast": "kannte",
+      "pastParticiple": "gekannt",
+      "presentParticiple": "kennend",
+      "konjunktivII": "kennte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular (mixed)",
+    "category": "mental",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich kenne ihn gut.", "english": "I know him well.", "tense": "present" },
+      { "german": "Sie kannte die Stadt nicht.", "english": "She didn't know the city.", "tense": "simplePast" },
+      { "german": "Hast du den Film gekannt?", "english": "Did you know the film?", "tense": "perfect" },
+      { "german": "Wirst du ihn kennenlernen?", "english": "Will you get to know him?", "tense": "future" }
+    ],
+    "tags": ["mental", "knowledge", "social"],
+    "notes": "Mixed verb: weak past tense with vowel change (kennen → kannte). Distinct from 'wissen' (factual knowledge)."
+  },
+  {
+    "id": "v11",
+    "infinitive": "geben",
+    "englishMeaning": "to give",
+    "alternativeMeanings": ["to hand", "to provide"],
+    "forms": {
+      "infinitive": "geben",
+      "present": { "ich": "gebe", "du": "gibst", "erSieEs": "gibt", "wir": "geben", "ihr": "gebt", "sieSie": "geben" },
+      "simplePast": "gab",
+      "pastParticiple": "gegeben",
+      "presentParticiple": "gebend",
+      "konjunktivII": "gäbe"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "action",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative+dative" },
+    "examples": [
+      { "german": "Ich gebe dir das Buch.", "english": "I give you the book.", "tense": "present" },
+      { "german": "Er gab ihr einen Kuss.", "english": "He gave her a kiss.", "tense": "simplePast" },
+      { "german": "Sie hat ihm die Schlüssel gegeben.", "english": "She gave him the keys.", "tense": "perfect" },
+      { "german": "Wirst du mir deine Nummer geben?", "english": "Will you give me your number?", "tense": "future" }
+    ],
+    "tags": ["action", "social", "essential"],
+    "notes": "Vowel change e → i in 2nd/3rd singular present. Also used impersonally: 'es gibt' = there is/are."
+  },
+  {
+    "id": "v12",
+    "infinitive": "nehmen",
+    "englishMeaning": "to take",
+    "alternativeMeanings": ["to grab", "to pick up"],
+    "forms": {
+      "infinitive": "nehmen",
+      "present": { "ich": "nehme", "du": "nimmst", "erSieEs": "nimmt", "wir": "nehmen", "ihr": "nehmt", "sieSie": "nehmen" },
+      "simplePast": "nahm",
+      "pastParticiple": "genommen",
+      "presentParticiple": "nehmend",
+      "konjunktivII": "nähme"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "action",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich nehme den Bus.", "english": "I take the bus.", "tense": "present" },
+      { "german": "Er nahm das Buch vom Regal.", "english": "He took the book from the shelf.", "tense": "simplePast" },
+      { "german": "Sie hat ein Taxi genommen.", "english": "She took a taxi.", "tense": "perfect" },
+      { "german": "Wirst du Urlaub nehmen?", "english": "Will you take a vacation?", "tense": "future" }
+    ],
+    "tags": ["action", "transport", "daily routine"],
+    "notes": "Strong vowel change: nehm- → nimm- in singular present. Simple past 'nahm' is highly irregular."
+  },
+  {
+    "id": "v13",
+    "infinitive": "stehen",
+    "englishMeaning": "to stand",
+    "alternativeMeanings": ["to be positioned", "to suit (clothing)"],
+    "forms": {
+      "infinitive": "stehen",
+      "present": { "ich": "stehe", "du": "stehst", "erSieEs": "steht", "wir": "stehen", "ihr": "steht", "sieSie": "stehen" },
+      "simplePast": "stand",
+      "pastParticiple": "gestanden",
+      "presentParticiple": "stehend",
+      "konjunktivII": "stünde"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "position",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Er steht an der Tür.", "english": "He is standing at the door.", "tense": "present" },
+      { "german": "Ich stand lange in der Schlange.", "english": "I stood in line for a long time.", "tense": "simplePast" },
+      { "german": "Das Auto hat dort gestanden.", "english": "The car was parked there.", "tense": "perfect" },
+      { "german": "Sie wird vor dem Gebäude stehen.", "english": "She will stand in front of the building.", "tense": "future" }
+    ],
+    "tags": ["position", "body", "location"],
+    "notes": "In southern Germany and Austria, 'sein' may be used as auxiliary instead of 'haben'."
+  },
+  {
+    "id": "v14",
+    "infinitive": "liegen",
+    "englishMeaning": "to lie (be lying down)",
+    "alternativeMeanings": ["to be located", "to rest"],
+    "forms": {
+      "infinitive": "liegen",
+      "present": { "ich": "liege", "du": "liegst", "erSieEs": "liegt", "wir": "liegen", "ihr": "liegt", "sieSie": "liegen" },
+      "simplePast": "lag",
+      "pastParticiple": "gelegen",
+      "presentParticiple": "liegend",
+      "konjunktivII": "läge"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "position",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Das Buch liegt auf dem Tisch.", "english": "The book is lying on the table.", "tense": "present" },
+      { "german": "Er lag krank im Bett.", "english": "He lay sick in bed.", "tense": "simplePast" },
+      { "german": "München hat in Bayern gelegen.", "english": "Munich has been located in Bavaria.", "tense": "perfect" },
+      { "german": "Die Unterlagen werden auf deinem Schreibtisch liegen.", "english": "The documents will be on your desk.", "tense": "future" }
+    ],
+    "tags": ["position", "location", "body"],
+    "notes": "Distinguishes from 'legen' (to lay/place). Regional variation with 'sein' as auxiliary in south Germany/Austria."
+  },
+  {
+    "id": "v15",
+    "infinitive": "sitzen",
+    "englishMeaning": "to sit",
+    "alternativeMeanings": ["to be seated", "to fit (clothing)"],
+    "forms": {
+      "infinitive": "sitzen",
+      "present": { "ich": "sitze", "du": "sitzt", "erSieEs": "sitzt", "wir": "sitzen", "ihr": "sitzt", "sieSie": "sitzen" },
+      "simplePast": "saß",
+      "pastParticiple": "gesessen",
+      "presentParticiple": "sitzend",
+      "konjunktivII": "säße"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "position",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Sie sitzt am Fenster.", "english": "She is sitting at the window.", "tense": "present" },
+      { "german": "Wir saßen im Park.", "english": "We sat in the park.", "tense": "simplePast" },
+      { "german": "Er hat stundenlang gesessen.", "english": "He sat for hours.", "tense": "perfect" },
+      { "german": "Ich werde vorne sitzen.", "english": "I will sit in the front.", "tense": "future" }
+    ],
+    "tags": ["position", "body", "daily routine"],
+    "notes": "Distinguishes from 'setzen' (to set/place). Uses 'sein' as auxiliary in southern German dialects."
+  },
+  {
+    "id": "v16",
+    "infinitive": "laufen",
+    "englishMeaning": "to run / walk",
+    "alternativeMeanings": ["to jog", "to operate (machine)"],
+    "forms": {
+      "infinitive": "laufen",
+      "present": { "ich": "laufe", "du": "läufst", "erSieEs": "läuft", "wir": "laufen", "ihr": "lauft", "sieSie": "laufen" },
+      "simplePast": "lief",
+      "pastParticiple": "gelaufen",
+      "presentParticiple": "laufend",
+      "konjunktivII": "liefe"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "motion",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Ich laufe jeden Morgen.", "english": "I run every morning.", "tense": "present" },
+      { "german": "Er lief die Treppe hinauf.", "english": "He ran up the stairs.", "tense": "simplePast" },
+      { "german": "Wir sind 5 km gelaufen.", "english": "We ran 5 km.", "tense": "perfect" },
+      { "german": "Sie wird im Marathon laufen.", "english": "She will run in the marathon.", "tense": "future" }
+    ],
+    "tags": ["motion", "sport", "daily routine"],
+    "notes": "Vowel change a → ä in 2nd/3rd singular present. Takes 'sein' for directed motion. Can also mean 'to walk' in everyday speech."
+  },
+  {
+    "id": "v17",
+    "infinitive": "sprechen",
+    "englishMeaning": "to speak / talk",
+    "alternativeMeanings": ["to converse", "to address"],
+    "forms": {
+      "infinitive": "sprechen",
+      "present": { "ich": "spreche", "du": "sprichst", "erSieEs": "spricht", "wir": "sprechen", "ihr": "sprecht", "sieSie": "sprechen" },
+      "simplePast": "sprach",
+      "pastParticiple": "gesprochen",
+      "presentParticiple": "sprechend",
+      "konjunktivII": "spräche"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "communication",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Sie spricht fließend Englisch.", "english": "She speaks English fluently.", "tense": "present" },
+      { "german": "Er sprach laut.", "english": "He spoke loudly.", "tense": "simplePast" },
+      { "german": "Wir haben über das Problem gesprochen.", "english": "We talked about the problem.", "tense": "perfect" },
+      { "german": "Ich werde mit dem Chef sprechen.", "english": "I will speak with the boss.", "tense": "future" }
+    ],
+    "tags": ["communication", "language", "social"],
+    "notes": "Vowel change e → i in 2nd/3rd singular present. Used with 'mit' for conversations and 'über' for topics."
+  },
+  {
+    "id": "v18",
+    "infinitive": "schreiben",
+    "englishMeaning": "to write",
+    "alternativeMeanings": ["to compose", "to type"],
+    "forms": {
+      "infinitive": "schreiben",
+      "present": { "ich": "schreibe", "du": "schreibst", "erSieEs": "schreibt", "wir": "schreiben", "ihr": "schreibt", "sieSie": "schreiben" },
+      "simplePast": "schrieb",
+      "pastParticiple": "geschrieben",
+      "presentParticiple": "schreibend",
+      "konjunktivII": "schriebe"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "communication",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich schreibe einen Brief.", "english": "I am writing a letter.", "tense": "present" },
+      { "german": "Sie schrieb ein Buch.", "english": "She wrote a book.", "tense": "simplePast" },
+      { "german": "Er hat eine E-Mail geschrieben.", "english": "He wrote an email.", "tense": "perfect" },
+      { "german": "Wir werden einen Bericht schreiben.", "english": "We will write a report.", "tense": "future" }
+    ],
+    "tags": ["communication", "work", "school"],
+    "notes": "Strong verb with diphthong change ei → ie in simple past. Very common in academic and professional contexts."
+  },
+  {
+    "id": "v19",
+    "infinitive": "lesen",
+    "englishMeaning": "to read",
+    "alternativeMeanings": ["to collect (grapes/harvest)"],
+    "forms": {
+      "infinitive": "lesen",
+      "present": { "ich": "lese", "du": "liest", "erSieEs": "liest", "wir": "lesen", "ihr": "lest", "sieSie": "lesen" },
+      "simplePast": "las",
+      "pastParticiple": "gelesen",
+      "presentParticiple": "lesend",
+      "konjunktivII": "läse"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "mental",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Er liest gern Romane.", "english": "He likes reading novels.", "tense": "present" },
+      { "german": "Sie las die Zeitung.", "english": "She read the newspaper.", "tense": "simplePast" },
+      { "german": "Ich habe das Buch gelesen.", "english": "I have read the book.", "tense": "perfect" },
+      { "german": "Wir werden den Text lesen.", "english": "We will read the text.", "tense": "future" }
+    ],
+    "tags": ["mental", "school", "leisure"],
+    "notes": "Vowel change e → ie in 2nd/3rd singular present (liest). Note: du liest and er liest look identical."
+  },
+  {
+    "id": "v20",
+    "infinitive": "essen",
+    "englishMeaning": "to eat",
+    "alternativeMeanings": ["to dine"],
+    "forms": {
+      "infinitive": "essen",
+      "present": { "ich": "esse", "du": "isst", "erSieEs": "isst", "wir": "essen", "ihr": "esst", "sieSie": "essen" },
+      "simplePast": "aß",
+      "pastParticiple": "gegessen",
+      "presentParticiple": "essend",
+      "konjunktivII": "äße"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "daily routine",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich esse gern Pizza.", "english": "I like eating pizza.", "tense": "present" },
+      { "german": "Wir aßen im Restaurant.", "english": "We ate at the restaurant.", "tense": "simplePast" },
+      { "german": "Er hat zu viel gegessen.", "english": "He ate too much.", "tense": "perfect" },
+      { "german": "Was wirst du zum Frühstück essen?", "english": "What will you eat for breakfast?", "tense": "future" }
+    ],
+    "tags": ["food", "daily routine", "essential"],
+    "notes": "Vowel change e → i in 2nd/3rd singular (isst). Note: du isst and er isst are identical. Distinguish from 'fressen' (eating by animals)."
+  },
+  {
+    "id": "v21",
+    "infinitive": "trinken",
+    "englishMeaning": "to drink",
+    "alternativeMeanings": ["to have a drink"],
+    "forms": {
+      "infinitive": "trinken",
+      "present": { "ich": "trinke", "du": "trinkst", "erSieEs": "trinkt", "wir": "trinken", "ihr": "trinkt", "sieSie": "trinken" },
+      "simplePast": "trank",
+      "pastParticiple": "getrunken",
+      "presentParticiple": "trinkend",
+      "konjunktivII": "tränke"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "daily routine",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich trinke jeden Morgen Kaffee.", "english": "I drink coffee every morning.", "tense": "present" },
+      { "german": "Er trank ein Glas Wasser.", "english": "He drank a glass of water.", "tense": "simplePast" },
+      { "german": "Wir haben Wein getrunken.", "english": "We drank wine.", "tense": "perfect" },
+      { "german": "Sie wird Tee trinken.", "english": "She will drink tea.", "tense": "future" }
+    ],
+    "tags": ["food", "daily routine", "essential"],
+    "notes": "Strong verb with vowel change i → a → u (trinken, trank, getrunken). Common in daily conversation."
+  },
+  {
+    "id": "v22",
+    "infinitive": "schlafen",
+    "englishMeaning": "to sleep",
+    "alternativeMeanings": ["to be asleep"],
+    "forms": {
+      "infinitive": "schlafen",
+      "present": { "ich": "schlafe", "du": "schläfst", "erSieEs": "schläft", "wir": "schlafen", "ihr": "schlaft", "sieSie": "schlafen" },
+      "simplePast": "schlief",
+      "pastParticiple": "geschlafen",
+      "presentParticiple": "schlafend",
+      "konjunktivII": "schliefe"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "daily routine",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Das Baby schläft.", "english": "The baby is sleeping.", "tense": "present" },
+      { "german": "Ich schlief lange.", "english": "I slept for a long time.", "tense": "simplePast" },
+      { "german": "Er hat gut geschlafen.", "english": "He slept well.", "tense": "perfect" },
+      { "german": "Ich werde früh schlafen gehen.", "english": "I will go to sleep early.", "tense": "future" }
+    ],
+    "tags": ["daily routine", "body", "health"],
+    "notes": "Vowel change a → ä in 2nd/3rd singular present. Strong verb class with diphthong in simple past 'schlief'."
+  },
+  {
+    "id": "v23",
+    "infinitive": "arbeiten",
+    "englishMeaning": "to work",
+    "alternativeMeanings": ["to labour", "to operate"],
+    "forms": {
+      "infinitive": "arbeiten",
+      "present": { "ich": "arbeite", "du": "arbeitest", "erSieEs": "arbeitet", "wir": "arbeiten", "ihr": "arbeitet", "sieSie": "arbeiten" },
+      "simplePast": "arbeitete",
+      "pastParticiple": "gearbeitet",
+      "presentParticiple": "arbeitend",
+      "konjunktivII": "arbeitete"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "work",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Ich arbeite von neun bis fünf.", "english": "I work from nine to five.", "tense": "present" },
+      { "german": "Sie arbeitete bis spät.", "english": "She worked until late.", "tense": "simplePast" },
+      { "german": "Wir haben hart gearbeitet.", "english": "We worked hard.", "tense": "perfect" },
+      { "german": "Er wird nächste Woche nicht arbeiten.", "english": "He will not work next week.", "tense": "future" }
+    ],
+    "tags": ["work", "daily routine", "professional"],
+    "notes": "Regular weak verb, but adds -e- before -t endings (arbeitest, arbeitet, arbeitete) for pronunciation. Very frequent in everyday German."
+  },
+  {
+    "id": "v24",
+    "infinitive": "kaufen",
+    "englishMeaning": "to buy / purchase",
+    "alternativeMeanings": ["to shop for"],
+    "forms": {
+      "infinitive": "kaufen",
+      "present": { "ich": "kaufe", "du": "kaufst", "erSieEs": "kauft", "wir": "kaufen", "ihr": "kauft", "sieSie": "kaufen" },
+      "simplePast": "kaufte",
+      "pastParticiple": "gekauft",
+      "presentParticiple": "kaufend",
+      "konjunktivII": "kaufte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "commercial",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich kaufe Lebensmittel.", "english": "I buy groceries.", "tense": "present" },
+      { "german": "Er kaufte ein neues Auto.", "english": "He bought a new car.", "tense": "simplePast" },
+      { "german": "Sie hat Schuhe gekauft.", "english": "She bought shoes.", "tense": "perfect" },
+      { "german": "Wir werden ein Haus kaufen.", "english": "We will buy a house.", "tense": "future" }
+    ],
+    "tags": ["shopping", "commercial", "daily routine"],
+    "notes": "Regular weak verb. Opposite: 'verkaufen' (to sell). Frequently used with 'ein-kaufen' (to go shopping)."
+  },
+  {
+    "id": "v25",
+    "infinitive": "spielen",
+    "englishMeaning": "to play",
+    "alternativeMeanings": ["to perform", "to act"],
+    "forms": {
+      "infinitive": "spielen",
+      "present": { "ich": "spiele", "du": "spielst", "erSieEs": "spielt", "wir": "spielen", "ihr": "spielt", "sieSie": "spielen" },
+      "simplePast": "spielte",
+      "pastParticiple": "gespielt",
+      "presentParticiple": "spielend",
+      "konjunktivII": "spielte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "leisure",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Die Kinder spielen im Garten.", "english": "The children are playing in the garden.", "tense": "present" },
+      { "german": "Er spielte Gitarre.", "english": "He played guitar.", "tense": "simplePast" },
+      { "german": "Wir haben Fußball gespielt.", "english": "We played football.", "tense": "perfect" },
+      { "german": "Sie wird Theater spielen.", "english": "She will perform in the theatre.", "tense": "future" }
+    ],
+    "tags": ["leisure", "sport", "children", "music"],
+    "notes": "Regular weak verb. Used for sports, instruments, and games. Musical instruments use 'Klavier/Geige spielen' (no article)."
+  },
+  {
+    "id": "v26",
+    "infinitive": "helfen",
+    "englishMeaning": "to help",
+    "alternativeMeanings": ["to assist", "to aid"],
+    "forms": {
+      "infinitive": "helfen",
+      "present": { "ich": "helfe", "du": "hilfst", "erSieEs": "hilft", "wir": "helfen", "ihr": "helft", "sieSie": "helfen" },
+      "simplePast": "half",
+      "pastParticiple": "geholfen",
+      "presentParticiple": "helfend",
+      "konjunktivII": "hülfe"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "social",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "dative" },
+    "examples": [
+      { "german": "Ich helfe dir.", "english": "I help you.", "tense": "present" },
+      { "german": "Er half ihr beim Umzug.", "english": "He helped her move.", "tense": "simplePast" },
+      { "german": "Sie hat uns geholfen.", "english": "She helped us.", "tense": "perfect" },
+      { "german": "Wirst du mir helfen?", "english": "Will you help me?", "tense": "future" }
+    ],
+    "tags": ["social", "support", "essential"],
+    "notes": "Vowel change e → i in 2nd/3rd singular present. Governs dative case: 'jemandem helfen'."
+  },
+  {
+    "id": "v27",
+    "infinitive": "lernen",
+    "englishMeaning": "to learn",
+    "alternativeMeanings": ["to study", "to memorize"],
+    "forms": {
+      "infinitive": "lernen",
+      "present": { "ich": "lerne", "du": "lernst", "erSieEs": "lernt", "wir": "lernen", "ihr": "lernt", "sieSie": "lernen" },
+      "simplePast": "lernte",
+      "pastParticiple": "gelernt",
+      "presentParticiple": "lernend",
+      "konjunktivII": "lernte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "mental",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich lerne Deutsch.", "english": "I am learning German.", "tense": "present" },
+      { "german": "Sie lernte für die Prüfung.", "english": "She studied for the exam.", "tense": "simplePast" },
+      { "german": "Er hat schnell gelernt.", "english": "He learned quickly.", "tense": "perfect" },
+      { "german": "Wir werden schwimmen lernen.", "english": "We will learn to swim.", "tense": "future" }
+    ],
+    "tags": ["school", "mental", "language"],
+    "notes": "Regular weak verb. Distinct from 'studieren' (to study at university). Used for skill acquisition and studying."
+  },
+  {
+    "id": "v28",
+    "infinitive": "denken",
+    "englishMeaning": "to think",
+    "alternativeMeanings": ["to believe", "to consider"],
+    "forms": {
+      "infinitive": "denken",
+      "present": { "ich": "denke", "du": "denkst", "erSieEs": "denkt", "wir": "denken", "ihr": "denkt", "sieSie": "denken" },
+      "simplePast": "dachte",
+      "pastParticiple": "gedacht",
+      "presentParticiple": "denkend",
+      "konjunktivII": "dächte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular (mixed)",
+    "category": "mental",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich denke, er hat recht.", "english": "I think he is right.", "tense": "present" },
+      { "german": "Sie dachte an ihre Familie.", "english": "She thought of her family.", "tense": "simplePast" },
+      { "german": "Wir haben gut nachgedacht.", "english": "We thought carefully.", "tense": "perfect" },
+      { "german": "Er wird anders denken.", "english": "He will think differently.", "tense": "future" }
+    ],
+    "tags": ["mental", "opinion", "reflection"],
+    "notes": "Mixed verb: consonant change (denken → dachte). Used with 'an + accusative' to mean 'to think of/about someone'."
+  },
+  {
+    "id": "v29",
+    "infinitive": "fragen",
+    "englishMeaning": "to ask",
+    "alternativeMeanings": ["to inquire", "to question"],
+    "forms": {
+      "infinitive": "fragen",
+      "present": { "ich": "frage", "du": "fragst", "erSieEs": "fragt", "wir": "fragen", "ihr": "fragt", "sieSie": "fragen" },
+      "simplePast": "fragte",
+      "pastParticiple": "gefragt",
+      "presentParticiple": "fragend",
+      "konjunktivII": "fragte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "communication",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich frage den Lehrer.", "english": "I ask the teacher.", "tense": "present" },
+      { "german": "Er fragte nach dem Weg.", "english": "He asked for directions.", "tense": "simplePast" },
+      { "german": "Sie hat mich gefragt.", "english": "She asked me.", "tense": "perfect" },
+      { "german": "Ich werde ihn morgen fragen.", "english": "I will ask him tomorrow.", "tense": "future" }
+    ],
+    "tags": ["communication", "social", "school"],
+    "notes": "Regular weak verb. Use 'nach' for asking about something: 'nach dem Weg fragen'. Reflexive: 'sich fragen' = to wonder."
+  },
+  {
+    "id": "v30",
+    "infinitive": "antworten",
+    "englishMeaning": "to answer / reply",
+    "alternativeMeanings": ["to respond"],
+    "forms": {
+      "infinitive": "antworten",
+      "present": { "ich": "antworte", "du": "antwortest", "erSieEs": "antwortet", "wir": "antworten", "ihr": "antwortet", "sieSie": "antworten" },
+      "simplePast": "antwortete",
+      "pastParticiple": "geantwortet",
+      "presentParticiple": "antwortend",
+      "konjunktivII": "antwortete"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "communication",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "dative" },
+    "examples": [
+      { "german": "Er antwortet mir nicht.", "english": "He doesn't answer me.", "tense": "present" },
+      { "german": "Sie antwortete auf die Frage.", "english": "She answered the question.", "tense": "simplePast" },
+      { "german": "Ich habe dir geantwortet.", "english": "I answered you.", "tense": "perfect" },
+      { "german": "Wann wirst du antworten?", "english": "When will you reply?", "tense": "future" }
+    ],
+    "tags": ["communication", "school", "social"],
+    "notes": "Regular weak verb with -e- insertion (antwortest, antwortet). Governs dative: 'jemandem antworten'. 'auf + accusative' for the subject of response."
+  },
+  {
+    "id": "v31",
+    "infinitive": "wohnen",
+    "englishMeaning": "to live / reside",
+    "alternativeMeanings": ["to dwell", "to stay"],
+    "forms": {
+      "infinitive": "wohnen",
+      "present": { "ich": "wohne", "du": "wohnst", "erSieEs": "wohnt", "wir": "wohnen", "ihr": "wohnt", "sieSie": "wohnen" },
+      "simplePast": "wohnte",
+      "pastParticiple": "gewohnt",
+      "presentParticiple": "wohnend",
+      "konjunktivII": "wohnte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "location",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Ich wohne in Berlin.", "english": "I live in Berlin.", "tense": "present" },
+      { "german": "Er wohnte früher in München.", "english": "He used to live in Munich.", "tense": "simplePast" },
+      { "german": "Sie hat lange in Wien gewohnt.", "english": "She lived in Vienna for a long time.", "tense": "perfect" },
+      { "german": "Wir werden in der Stadt wohnen.", "english": "We will live in the city.", "tense": "future" }
+    ],
+    "tags": ["location", "housing", "daily life"],
+    "notes": "Regular weak verb. Specifically means to reside (ongoing). Distinguished from 'leben' (to live/be alive). Used with 'in + dative'."
+  },
+  {
+    "id": "v32",
+    "infinitive": "leben",
+    "englishMeaning": "to live (be alive)",
+    "alternativeMeanings": ["to exist", "to reside (informal)"],
+    "forms": {
+      "infinitive": "leben",
+      "present": { "ich": "lebe", "du": "lebst", "erSieEs": "lebt", "wir": "leben", "ihr": "lebt", "sieSie": "leben" },
+      "simplePast": "lebte",
+      "pastParticiple": "gelebt",
+      "presentParticiple": "lebend",
+      "konjunktivII": "lebte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "state",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Er lebt noch.", "english": "He is still alive.", "tense": "present" },
+      { "german": "Sie lebte ein glückliches Leben.", "english": "She lived a happy life.", "tense": "simplePast" },
+      { "german": "Ich habe lange in Japan gelebt.", "english": "I lived in Japan for a long time.", "tense": "perfect" },
+      { "german": "Wir werden gesünder leben.", "english": "We will live more healthily.", "tense": "future" }
+    ],
+    "tags": ["state", "existence", "health"],
+    "notes": "Regular weak verb. Has existential meaning. Can also mean 'to reside' informally, like 'wohnen'."
+  },
+  {
+    "id": "v33",
+    "infinitive": "heißen",
+    "englishMeaning": "to be called / to be named",
+    "alternativeMeanings": ["to mean"],
+    "forms": {
+      "infinitive": "heißen",
+      "present": { "ich": "heiße", "du": "heißt", "erSieEs": "heißt", "wir": "heißen", "ihr": "heißt", "sieSie": "heißen" },
+      "simplePast": "hieß",
+      "pastParticiple": "geheißen",
+      "presentParticiple": "heißend",
+      "konjunktivII": "hieße"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "identification",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "nominative" },
+    "examples": [
+      { "german": "Ich heiße Maria.", "english": "My name is Maria.", "tense": "present" },
+      { "german": "Das hieß früher anders.", "english": "That used to be called something else.", "tense": "simplePast" },
+      { "german": "Was hat das geheißen?", "english": "What was that called?", "tense": "perfect" },
+      { "german": "Das wird nichts heißen.", "english": "That will mean nothing.", "tense": "future" }
+    ],
+    "tags": ["identification", "introduction", "essential"],
+    "notes": "Governs nominative. Du heißt and er heißt are identical. Also used impersonally: 'Es heißt, dass...' (It is said that...)."
+  },
+  {
+    "id": "v34",
+    "infinitive": "verstehen",
+    "englishMeaning": "to understand",
+    "alternativeMeanings": ["to comprehend", "to grasp"],
+    "forms": {
+      "infinitive": "verstehen",
+      "present": { "ich": "verstehe", "du": "verstehst", "erSieEs": "versteht", "wir": "verstehen", "ihr": "versteht", "sieSie": "verstehen" },
+      "simplePast": "verstand",
+      "pastParticiple": "verstanden",
+      "presentParticiple": "verstehend",
+      "konjunktivII": "verstünde"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "inseparable", "prefix": "ver-" },
+    "type": "irregular/strong",
+    "category": "mental",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich verstehe dich nicht.", "english": "I don't understand you.", "tense": "present" },
+      { "german": "Er verstand die Aufgabe.", "english": "He understood the task.", "tense": "simplePast" },
+      { "german": "Hast du das verstanden?", "english": "Did you understand that?", "tense": "perfect" },
+      { "german": "Sie wird es bald verstehen.", "english": "She will understand it soon.", "tense": "future" }
+    ],
+    "tags": ["mental", "communication", "language"],
+    "notes": "Inseparable prefix 'ver-'. No 'ge-' in past participle prefix. Reflexive: 'sich verstehen' = to get along with someone."
+  },
+  {
+    "id": "v35",
+    "infinitive": "brauchen",
+    "englishMeaning": "to need / require",
+    "alternativeMeanings": ["to use"],
+    "forms": {
+      "infinitive": "brauchen",
+      "present": { "ich": "brauche", "du": "brauchst", "erSieEs": "braucht", "wir": "brauchen", "ihr": "braucht", "sieSie": "brauchen" },
+      "simplePast": "brauchte",
+      "pastParticiple": "gebraucht",
+      "presentParticiple": "brauchend",
+      "konjunktivII": "brauchte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "necessity",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich brauche Hilfe.", "english": "I need help.", "tense": "present" },
+      { "german": "Er brauchte mehr Zeit.", "english": "He needed more time.", "tense": "simplePast" },
+      { "german": "Sie hat das nicht gebraucht.", "english": "She didn't need that.", "tense": "perfect" },
+      { "german": "Wir werden eine Lösung brauchen.", "english": "We will need a solution.", "tense": "future" }
+    ],
+    "tags": ["necessity", "essential", "daily life"],
+    "notes": "Regular weak verb. In informal German, often used as modal verb: 'Du brauchst nicht zu kommen' (You don't need to come). 'gebraucht' also means 'used/second-hand'."
+  },
+  {
+    "id": "v36",
+    "infinitive": "finden",
+    "englishMeaning": "to find",
+    "alternativeMeanings": ["to consider", "to think (of)"],
+    "forms": {
+      "infinitive": "finden",
+      "present": { "ich": "finde", "du": "findest", "erSieEs": "findet", "wir": "finden", "ihr": "findet", "sieSie": "finden" },
+      "simplePast": "fand",
+      "pastParticiple": "gefunden",
+      "presentParticiple": "findend",
+      "konjunktivII": "fände"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "action",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich finde meinen Schlüssel nicht.", "english": "I can't find my key.", "tense": "present" },
+      { "german": "Er fand eine neue Arbeit.", "english": "He found a new job.", "tense": "simplePast" },
+      { "german": "Wir haben eine Lösung gefunden.", "english": "We found a solution.", "tense": "perfect" },
+      { "german": "Sie wird das interessant finden.", "english": "She will find that interesting.", "tense": "future" }
+    ],
+    "tags": ["action", "mental", "opinion"],
+    "notes": "Strong verb with vowel change i → a → u. Also used to express opinion: 'Ich finde das gut' (I think that's good)."
+  },
+  {
+    "id": "v37",
+    "infinitive": "bringen",
+    "englishMeaning": "to bring",
+    "alternativeMeanings": ["to take (somewhere)", "to deliver"],
+    "forms": {
+      "infinitive": "bringen",
+      "present": { "ich": "bringe", "du": "bringst", "erSieEs": "bringt", "wir": "bringen", "ihr": "bringt", "sieSie": "bringen" },
+      "simplePast": "brachte",
+      "pastParticiple": "gebracht",
+      "presentParticiple": "bringend",
+      "konjunktivII": "brächte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular (mixed)",
+    "category": "action",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative+dative" },
+    "examples": [
+      { "german": "Ich bringe dir Blumen.", "english": "I'm bringing you flowers.", "tense": "present" },
+      { "german": "Er brachte das Paket.", "english": "He brought the package.", "tense": "simplePast" },
+      { "german": "Sie hat mir Kaffee gebracht.", "english": "She brought me coffee.", "tense": "perfect" },
+      { "german": "Ich werde dich nach Hause bringen.", "english": "I will take you home.", "tense": "future" }
+    ],
+    "tags": ["action", "social", "transport"],
+    "notes": "Mixed verb with consonant change: bringen → brachte. Both a direct object (accusative) and indirect object (dative) possible."
+  },
+  {
+    "id": "v38",
+    "infinitive": "wollen",
+    "englishMeaning": "to want (to)",
+    "alternativeMeanings": ["to intend", "to wish"],
+    "forms": {
+      "infinitive": "wollen",
+      "present": { "ich": "will", "du": "willst", "erSieEs": "will", "wir": "wollen", "ihr": "wollt", "sieSie": "wollen" },
+      "simplePast": "wollte",
+      "pastParticiple": "gewollt",
+      "presentParticiple": "wollend",
+      "konjunktivII": "wollte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "modal",
+    "category": "modal",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich will Arzt werden.", "english": "I want to become a doctor.", "tense": "present" },
+      { "german": "Er wollte nicht kommen.", "english": "He didn't want to come.", "tense": "simplePast" },
+      { "german": "Sie hat das nicht gewollt.", "english": "She didn't want that.", "tense": "perfect" },
+      { "german": "Was wird er wollen?", "english": "What will he want?", "tense": "future" }
+    ],
+    "tags": ["modal", "desire", "essential"],
+    "notes": "Modal verb: 1st and 3rd singular present have no ending (ich will, er will). Followed by infinitive without 'zu'."
+  },
+  {
+    "id": "v39",
+    "infinitive": "können",
+    "englishMeaning": "to be able to / can",
+    "alternativeMeanings": ["to know how to"],
+    "forms": {
+      "infinitive": "können",
+      "present": { "ich": "kann", "du": "kannst", "erSieEs": "kann", "wir": "können", "ihr": "könnt", "sieSie": "können" },
+      "simplePast": "konnte",
+      "pastParticiple": "gekonnt",
+      "presentParticiple": "könnend",
+      "konjunktivII": "könnte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "modal",
+    "category": "modal",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Ich kann schwimmen.", "english": "I can swim.", "tense": "present" },
+      { "german": "Er konnte nicht schlafen.", "english": "He couldn't sleep.", "tense": "simplePast" },
+      { "german": "Hast du das gekonnt?", "english": "Were you able to do that?", "tense": "perfect" },
+      { "german": "Sie wird es können.", "english": "She will be able to do it.", "tense": "future" }
+    ],
+    "tags": ["modal", "ability", "essential"],
+    "notes": "Modal verb: 1st and 3rd singular without ending (ich kann, er kann). Expresses ability or possibility. Konjunktiv II 'könnte' = could."
+  },
+  {
+    "id": "v40",
+    "infinitive": "müssen",
+    "englishMeaning": "to have to / must",
+    "alternativeMeanings": ["to be obliged to", "to need to"],
+    "forms": {
+      "infinitive": "müssen",
+      "present": { "ich": "muss", "du": "musst", "erSieEs": "muss", "wir": "müssen", "ihr": "müsst", "sieSie": "müssen" },
+      "simplePast": "musste",
+      "pastParticiple": "gemusst",
+      "presentParticiple": "müssend",
+      "konjunktivII": "müsste"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "modal",
+    "category": "modal",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Ich muss früh aufstehen.", "english": "I have to get up early.", "tense": "present" },
+      { "german": "Er musste die Aufgabe machen.", "english": "He had to do the task.", "tense": "simplePast" },
+      { "german": "Sie hat lange warten müssen.", "english": "She had to wait for a long time.", "tense": "perfect" },
+      { "german": "Wir werden pünktlich sein müssen.", "english": "We will have to be on time.", "tense": "future" }
+    ],
+    "tags": ["modal", "obligation", "essential"],
+    "notes": "Modal verb. 1st/3rd singular: muss. Expresses necessity. 'müsste' (Konjunktiv II) = should/ought to (polite). Perfect with double infinitive: 'hat warten müssen'."
+  },
+  {
+    "id": "v41",
+    "infinitive": "dürfen",
+    "englishMeaning": "to be allowed to / may",
+    "alternativeMeanings": ["to be permitted"],
+    "forms": {
+      "infinitive": "dürfen",
+      "present": { "ich": "darf", "du": "darfst", "erSieEs": "darf", "wir": "dürfen", "ihr": "dürft", "sieSie": "dürfen" },
+      "simplePast": "durfte",
+      "pastParticiple": "gedurft",
+      "presentParticiple": "dürfend",
+      "konjunktivII": "dürfte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "modal",
+    "category": "modal",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Darf ich reinkommen?", "english": "May I come in?", "tense": "present" },
+      { "german": "Er durfte nicht ausgehen.", "english": "He wasn't allowed to go out.", "tense": "simplePast" },
+      { "german": "Sie hat das nicht gedurft.", "english": "She wasn't allowed to do that.", "tense": "perfect" },
+      { "german": "Wirst du das dürfen?", "english": "Will you be allowed to do that?", "tense": "future" }
+    ],
+    "tags": ["modal", "permission", "politeness"],
+    "notes": "Modal verb expressing permission. 1st/3rd singular: darf. Konjunktiv II 'dürfte' = probably/might (epistemic use)."
+  },
+  {
+    "id": "v42",
+    "infinitive": "sollen",
+    "englishMeaning": "to be supposed to / should",
+    "alternativeMeanings": ["to be said to", "ought to"],
+    "forms": {
+      "infinitive": "sollen",
+      "present": { "ich": "soll", "du": "sollst", "erSieEs": "soll", "wir": "sollen", "ihr": "sollt", "sieSie": "sollen" },
+      "simplePast": "sollte",
+      "pastParticiple": "gesollt",
+      "presentParticiple": "sollend",
+      "konjunktivII": "sollte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "modal",
+    "category": "modal",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Du sollst nicht lügen.", "english": "You shall not lie.", "tense": "present" },
+      { "german": "Er sollte um acht ankommen.", "english": "He was supposed to arrive at eight.", "tense": "simplePast" },
+      { "german": "Das hat er nicht gesollt.", "english": "He wasn't supposed to do that.", "tense": "perfect" },
+      { "german": "Was soll das bedeuten?", "english": "What is that supposed to mean?", "tense": "present" }
+    ],
+    "tags": ["modal", "obligation", "advice"],
+    "notes": "Modal verb expressing expectation or external obligation. Konjunktiv II 'sollte' = should. 1st/3rd singular: soll."
+  },
+  {
+    "id": "v43",
+    "infinitive": "mögen",
+    "englishMeaning": "to like",
+    "alternativeMeanings": ["to enjoy", "may (possibility)"],
+    "forms": {
+      "infinitive": "mögen",
+      "present": { "ich": "mag", "du": "magst", "erSieEs": "mag", "wir": "mögen", "ihr": "mögt", "sieSie": "mögen" },
+      "simplePast": "mochte",
+      "pastParticiple": "gemocht",
+      "presentParticiple": "mögend",
+      "konjunktivII": "möchte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "modal",
+    "category": "modal",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich mag Schokolade.", "english": "I like chocolate.", "tense": "present" },
+      { "german": "Er mochte sie sofort.", "english": "He liked her immediately.", "tense": "simplePast" },
+      { "german": "Ich habe das nie gemocht.", "english": "I never liked that.", "tense": "perfect" },
+      { "german": "Sie wird es mögen.", "english": "She will like it.", "tense": "future" }
+    ],
+    "tags": ["modal", "preference", "essential"],
+    "notes": "Konjunktiv II 'möchte' is used as a polite form for 'would like to'. Extremely common in shops and restaurants."
+  },
+  {
+    "id": "v44",
+    "infinitive": "öffnen",
+    "englishMeaning": "to open",
+    "alternativeMeanings": ["to unlock", "to unfold"],
+    "forms": {
+      "infinitive": "öffnen",
+      "present": { "ich": "öffne", "du": "öffnest", "erSieEs": "öffnet", "wir": "öffnen", "ihr": "öffnet", "sieSie": "öffnen" },
+      "simplePast": "öffnete",
+      "pastParticiple": "geöffnet",
+      "presentParticiple": "öffnend",
+      "konjunktivII": "öffnete"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "action",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich öffne die Tür.", "english": "I open the door.", "tense": "present" },
+      { "german": "Er öffnete das Fenster.", "english": "He opened the window.", "tense": "simplePast" },
+      { "german": "Das Geschäft hat um neun geöffnet.", "english": "The shop opened at nine.", "tense": "perfect" },
+      { "german": "Sie wird das Paket öffnen.", "english": "She will open the package.", "tense": "future" }
+    ],
+    "tags": ["action", "daily routine"],
+    "notes": "Regular weak verb with -e- insertion. Synonym 'aufmachen' (separable) is more colloquial."
+  },
+  {
+    "id": "v45",
+    "infinitive": "schließen",
+    "englishMeaning": "to close / shut",
+    "alternativeMeanings": ["to lock", "to conclude"],
+    "forms": {
+      "infinitive": "schließen",
+      "present": { "ich": "schließe", "du": "schließt", "erSieEs": "schließt", "wir": "schließen", "ihr": "schließt", "sieSie": "schließen" },
+      "simplePast": "schloss",
+      "pastParticiple": "geschlossen",
+      "presentParticiple": "schließend",
+      "konjunktivII": "schlösse"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "action",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Bitte schließe die Tür.", "english": "Please close the door.", "tense": "present" },
+      { "german": "Er schloss das Fenster.", "english": "He closed the window.", "tense": "simplePast" },
+      { "german": "Das Museum hat um 18 Uhr geschlossen.", "english": "The museum closed at 6 pm.", "tense": "perfect" },
+      { "german": "Wir werden den Vertrag schließen.", "english": "We will conclude the contract.", "tense": "future" }
+    ],
+    "tags": ["action", "daily routine", "business"],
+    "notes": "Strong verb: schließt in 2nd/3rd person singular (no additional -t). Past tense 'schloss' with double-s rule applies."
+  },
+  {
+    "id": "v46",
+    "infinitive": "suchen",
+    "englishMeaning": "to search / look for",
+    "alternativeMeanings": ["to seek", "to try to find"],
+    "forms": {
+      "infinitive": "suchen",
+      "present": { "ich": "suche", "du": "suchst", "erSieEs": "sucht", "wir": "suchen", "ihr": "sucht", "sieSie": "suchen" },
+      "simplePast": "suchte",
+      "pastParticiple": "gesucht",
+      "presentParticiple": "suchend",
+      "konjunktivII": "suchte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "action",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich suche meine Brille.", "english": "I'm looking for my glasses.", "tense": "present" },
+      { "german": "Er suchte einen Job.", "english": "He was looking for a job.", "tense": "simplePast" },
+      { "german": "Wir haben lange gesucht.", "english": "We searched for a long time.", "tense": "perfect" },
+      { "german": "Sie wird eine Wohnung suchen.", "english": "She will look for an apartment.", "tense": "future" }
+    ],
+    "tags": ["action", "daily life"],
+    "notes": "Regular weak verb. Directly takes an accusative object (no preposition needed), unlike English 'look for'."
+  },
+  {
+    "id": "v47",
+    "infinitive": "beginnen",
+    "englishMeaning": "to begin / start",
+    "alternativeMeanings": ["to commence"],
+    "forms": {
+      "infinitive": "beginnen",
+      "present": { "ich": "beginne", "du": "beginnst", "erSieEs": "beginnt", "wir": "beginnen", "ihr": "beginnt", "sieSie": "beginnen" },
+      "simplePast": "begann",
+      "pastParticiple": "begonnen",
+      "presentParticiple": "beginnend",
+      "konjunktivII": "begänne"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "inseparable", "prefix": "be-" },
+    "type": "irregular/strong",
+    "category": "action",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Der Unterricht beginnt um 8 Uhr.", "english": "Class begins at 8 o'clock.", "tense": "present" },
+      { "german": "Er begann zu weinen.", "english": "He began to cry.", "tense": "simplePast" },
+      { "german": "Das Projekt hat begonnen.", "english": "The project has started.", "tense": "perfect" },
+      { "german": "Wir werden morgen beginnen.", "english": "We will begin tomorrow.", "tense": "future" }
+    ],
+    "tags": ["action", "work", "school"],
+    "notes": "Inseparable prefix 'be-'. Strong vowel change in simple past and past participle. Synonym: 'anfangen' (separable, more colloquial)."
+  },
+  {
+    "id": "v48",
+    "infinitive": "aufhören",
+    "englishMeaning": "to stop / cease",
+    "alternativeMeanings": ["to quit", "to end"],
+    "forms": {
+      "infinitive": "aufhören",
+      "present": { "ich": "höre auf", "du": "hörst auf", "erSieEs": "hört auf", "wir": "hören auf", "ihr": "hört auf", "sieSie": "hören auf" },
+      "simplePast": "hörte auf",
+      "pastParticiple": "aufgehört",
+      "presentParticiple": "aufhörend",
+      "konjunktivII": "hörte auf"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "separable", "prefix": "auf-" },
+    "type": "regular/weak (separable)",
+    "category": "action",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Hör bitte auf!", "english": "Please stop!", "tense": "present" },
+      { "german": "Er hörte mit dem Rauchen auf.", "english": "He stopped smoking.", "tense": "simplePast" },
+      { "german": "Es hat aufgehört zu regnen.", "english": "It has stopped raining.", "tense": "perfect" },
+      { "german": "Wann wirst du aufhören?", "english": "When will you stop?", "tense": "future" }
+    ],
+    "tags": ["action", "habit", "behavior"],
+    "notes": "Separable verb: prefix 'auf-' splits to end of clause in main clauses. 'ge-' inserted between prefix and stem in past participle."
+  },
+  {
+    "id": "v49",
+    "infinitive": "anfangen",
+    "englishMeaning": "to start / begin",
+    "alternativeMeanings": ["to commence", "to initiate"],
+    "forms": {
+      "infinitive": "anfangen",
+      "present": { "ich": "fange an", "du": "fängst an", "erSieEs": "fängt an", "wir": "fangen an", "ihr": "fangt an", "sieSie": "fangen an" },
+      "simplePast": "fing an",
+      "pastParticiple": "angefangen",
+      "presentParticiple": "anfangend",
+      "konjunktivII": "finge an"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "separable", "prefix": "an-" },
+    "type": "irregular/strong (separable)",
+    "category": "action",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Ich fange mit der Arbeit an.", "english": "I'm starting on the work.", "tense": "present" },
+      { "german": "Es fing an zu schneien.", "english": "It started to snow.", "tense": "simplePast" },
+      { "german": "Wann hast du angefangen?", "english": "When did you start?", "tense": "perfect" },
+      { "german": "Wir werden morgen anfangen.", "english": "We will start tomorrow.", "tense": "future" }
+    ],
+    "tags": ["action", "work", "school"],
+    "notes": "Separable strong verb. Vowel change a → ä in 2nd/3rd singular present. More colloquial than 'beginnen'. Followed by 'zu + infinitive'."
+  },
+  {
+    "id": "v50",
+    "infinitive": "aufstehen",
+    "englishMeaning": "to get up / stand up",
+    "alternativeMeanings": ["to rise", "to get out of bed"],
+    "forms": {
+      "infinitive": "aufstehen",
+      "present": { "ich": "stehe auf", "du": "stehst auf", "erSieEs": "steht auf", "wir": "stehen auf", "ihr": "steht auf", "sieSie": "stehen auf" },
+      "simplePast": "stand auf",
+      "pastParticiple": "aufgestanden",
+      "presentParticiple": "aufstehend",
+      "konjunktivII": "stünde auf"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "separable", "prefix": "auf-" },
+    "type": "irregular/strong (separable)",
+    "category": "daily routine",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Ich stehe um sieben Uhr auf.", "english": "I get up at seven o'clock.", "tense": "present" },
+      { "german": "Er stand früh auf.", "english": "He got up early.", "tense": "simplePast" },
+      { "german": "Wir sind um sechs aufgestanden.", "english": "We got up at six.", "tense": "perfect" },
+      { "german": "Sie wird spät aufstehen.", "english": "She will get up late.", "tense": "future" }
+    ],
+    "tags": ["daily routine", "body", "morning"],
+    "notes": "Separable verb with 'sein' as auxiliary. Strong verb base 'stehen'. Common in daily routine descriptions."
+  },
+  {
+    "id": "v51",
+    "infinitive": "einschlafen",
+    "englishMeaning": "to fall asleep",
+    "alternativeMeanings": ["to go to sleep"],
+    "forms": {
+      "infinitive": "einschlafen",
+      "present": { "ich": "schlafe ein", "du": "schläfst ein", "erSieEs": "schläft ein", "wir": "schlafen ein", "ihr": "schlaft ein", "sieSie": "schlafen ein" },
+      "simplePast": "schlief ein",
+      "pastParticiple": "eingeschlafen",
+      "presentParticiple": "einschlafend",
+      "konjunktivII": "schliefe ein"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "separable", "prefix": "ein-" },
+    "type": "irregular/strong (separable)",
+    "category": "daily routine",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Das Kind schläft ein.", "english": "The child is falling asleep.", "tense": "present" },
+      { "german": "Er schlief schnell ein.", "english": "He fell asleep quickly.", "tense": "simplePast" },
+      { "german": "Ich bin vor dem Film eingeschlafen.", "english": "I fell asleep before the film.", "tense": "perfect" },
+      { "german": "Sie wird früh einschlafen.", "english": "She will fall asleep early.", "tense": "future" }
+    ],
+    "tags": ["daily routine", "body", "sleep"],
+    "notes": "Separable, takes 'sein'. State change: going from awake to asleep. Opposite: aufwachen (to wake up)."
+  },
+  {
+    "id": "v52",
+    "infinitive": "aufwachen",
+    "englishMeaning": "to wake up",
+    "alternativeMeanings": ["to awake"],
+    "forms": {
+      "infinitive": "aufwachen",
+      "present": { "ich": "wache auf", "du": "wachst auf", "erSieEs": "wacht auf", "wir": "wachen auf", "ihr": "wacht auf", "sieSie": "wachen auf" },
+      "simplePast": "wachte auf",
+      "pastParticiple": "aufgewacht",
+      "presentParticiple": "aufwachend",
+      "konjunktivII": "wachte auf"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "separable", "prefix": "auf-" },
+    "type": "regular/weak (separable)",
+    "category": "daily routine",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Ich wache um 7 Uhr auf.", "english": "I wake up at 7 o'clock.", "tense": "present" },
+      { "german": "Er wachte vom Lärm auf.", "english": "He woke up from the noise.", "tense": "simplePast" },
+      { "german": "Sie ist mitten in der Nacht aufgewacht.", "english": "She woke up in the middle of the night.", "tense": "perfect" },
+      { "german": "Ich werde früh aufwachen.", "english": "I will wake up early.", "tense": "future" }
+    ],
+    "tags": ["daily routine", "body", "morning"],
+    "notes": "Separable, takes 'sein' (state change). Distinguished from 'aufwecken' (to wake someone else up)."
+  },
+  {
+    "id": "v53",
+    "infinitive": "besuchen",
+    "englishMeaning": "to visit",
+    "alternativeMeanings": ["to attend", "to call on"],
+    "forms": {
+      "infinitive": "besuchen",
+      "present": { "ich": "besuche", "du": "besuchst", "erSieEs": "besucht", "wir": "besuchen", "ihr": "besucht", "sieSie": "besuchen" },
+      "simplePast": "besuchte",
+      "pastParticiple": "besucht",
+      "presentParticiple": "besuchend",
+      "konjunktivII": "besuchte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "inseparable", "prefix": "be-" },
+    "type": "regular/weak",
+    "category": "social",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Wir besuchen unsere Großeltern.", "english": "We visit our grandparents.", "tense": "present" },
+      { "german": "Er besuchte das Museum.", "english": "He visited the museum.", "tense": "simplePast" },
+      { "german": "Ich habe meine Freundin besucht.", "english": "I visited my friend.", "tense": "perfect" },
+      { "german": "Sie wird uns bald besuchen.", "english": "She will visit us soon.", "tense": "future" }
+    ],
+    "tags": ["social", "travel", "family"],
+    "notes": "Inseparable prefix 'be-'. No 'ge-' in past participle. Also used for attending institutions: 'die Schule besuchen' (to attend school)."
+  },
+  {
+    "id": "v54",
+    "infinitive": "vergessen",
+    "englishMeaning": "to forget",
+    "alternativeMeanings": ["to leave behind (unintentionally)"],
+    "forms": {
+      "infinitive": "vergessen",
+      "present": { "ich": "vergesse", "du": "vergisst", "erSieEs": "vergisst", "wir": "vergessen", "ihr": "vergesst", "sieSie": "vergessen" },
+      "simplePast": "vergaß",
+      "pastParticiple": "vergessen",
+      "presentParticiple": "vergessend",
+      "konjunktivII": "vergäße"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "inseparable", "prefix": "ver-" },
+    "type": "irregular/strong",
+    "category": "mental",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich vergesse immer die Schlüssel.", "english": "I always forget my keys.", "tense": "present" },
+      { "german": "Er vergaß seinen Geburtstag.", "english": "He forgot his birthday.", "tense": "simplePast" },
+      { "german": "Hast du das vergessen?", "english": "Did you forget that?", "tense": "perfect" },
+      { "german": "Ich werde das nie vergessen.", "english": "I will never forget that.", "tense": "future" }
+    ],
+    "tags": ["mental", "memory", "daily life"],
+    "notes": "Inseparable 'ver-'. Past participle 'vergessen' looks like infinitive. e → i in 2nd/3rd singular (vergisst)."
+  },
+  {
+    "id": "v55",
+    "infinitive": "erinnern",
+    "englishMeaning": "to remind",
+    "alternativeMeanings": ["to recall (reflexive)"],
+    "forms": {
+      "infinitive": "erinnern",
+      "present": { "ich": "erinnere", "du": "erinnerst", "erSieEs": "erinnert", "wir": "erinnern", "ihr": "erinnert", "sieSie": "erinnern" },
+      "simplePast": "erinnerte",
+      "pastParticiple": "erinnert",
+      "presentParticiple": "erinnernd",
+      "konjunktivII": "erinnerte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "inseparable", "prefix": "er-" },
+    "type": "regular/weak",
+    "category": "mental",
+    "level": "A2",
+    "reflexive": true,
+    "governs": { "case": "accusative+genitive/an+accusative" },
+    "examples": [
+      { "german": "Ich erinnere mich an dich.", "english": "I remember you.", "tense": "present" },
+      { "german": "Er erinnerte mich an das Meeting.", "english": "He reminded me of the meeting.", "tense": "simplePast" },
+      { "german": "Sie hat sich an alles erinnert.", "english": "She remembered everything.", "tense": "perfect" },
+      { "german": "Ich werde mich immer erinnern.", "english": "I will always remember.", "tense": "future" }
+    ],
+    "tags": ["mental", "memory", "social"],
+    "notes": "Two uses: 'jemanden an etwas erinnern' (to remind someone of something) and 'sich an etwas erinnern' (to remember something, reflexive)."
+  },
+  {
+    "id": "v56",
+    "infinitive": "bezahlen",
+    "englishMeaning": "to pay",
+    "alternativeMeanings": ["to settle (a bill)"],
+    "forms": {
+      "infinitive": "bezahlen",
+      "present": { "ich": "bezahle", "du": "bezahlst", "erSieEs": "bezahlt", "wir": "bezahlen", "ihr": "bezahlt", "sieSie": "bezahlen" },
+      "simplePast": "bezahlte",
+      "pastParticiple": "bezahlt",
+      "presentParticiple": "bezahlend",
+      "konjunktivII": "bezahlte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "inseparable", "prefix": "be-" },
+    "type": "regular/weak",
+    "category": "commercial",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich bezahle die Rechnung.", "english": "I pay the bill.", "tense": "present" },
+      { "german": "Er bezahlte in bar.", "english": "He paid in cash.", "tense": "simplePast" },
+      { "german": "Hast du die Miete bezahlt?", "english": "Have you paid the rent?", "tense": "perfect" },
+      { "german": "Wer wird das bezahlen?", "english": "Who will pay for this?", "tense": "future" }
+    ],
+    "tags": ["commercial", "money", "shopping"],
+    "notes": "Inseparable 'be-'. Also 'zahlen' (to pay) without prefix. 'bezahlen' usually takes a direct object; 'zahlen' often used intransitively."
+  },
+  {
+    "id": "v57",
+    "infinitive": "kochen",
+    "englishMeaning": "to cook",
+    "alternativeMeanings": ["to boil", "to prepare (food)"],
+    "forms": {
+      "infinitive": "kochen",
+      "present": { "ich": "koche", "du": "kochst", "erSieEs": "kocht", "wir": "kochen", "ihr": "kocht", "sieSie": "kochen" },
+      "simplePast": "kochte",
+      "pastParticiple": "gekocht",
+      "presentParticiple": "kochend",
+      "konjunktivII": "kochte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "daily routine",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich koche heute Abend.", "english": "I'm cooking tonight.", "tense": "present" },
+      { "german": "Sie kochte Nudelsuppe.", "english": "She cooked noodle soup.", "tense": "simplePast" },
+      { "german": "Wir haben zusammen gekocht.", "english": "We cooked together.", "tense": "perfect" },
+      { "german": "Er wird das Wasser kochen.", "english": "He will boil the water.", "tense": "future" }
+    ],
+    "tags": ["food", "daily routine", "household"],
+    "notes": "Regular weak verb. Also means 'to boil' (for liquids). 'das Wasser kocht' = the water is boiling."
+  },
+  {
+    "id": "v58",
+    "infinitive": "putzen",
+    "englishMeaning": "to clean",
+    "alternativeMeanings": ["to polish", "to brush (teeth)"],
+    "forms": {
+      "infinitive": "putzen",
+      "present": { "ich": "putze", "du": "putzt", "erSieEs": "putzt", "wir": "putzen", "ihr": "putzt", "sieSie": "putzen" },
+      "simplePast": "putzte",
+      "pastParticiple": "geputzt",
+      "presentParticiple": "putzend",
+      "konjunktivII": "putzte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "household",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich putze die Zähne.", "english": "I brush my teeth.", "tense": "present" },
+      { "german": "Er putzte die Küche.", "english": "He cleaned the kitchen.", "tense": "simplePast" },
+      { "german": "Sie hat das Bad geputzt.", "english": "She cleaned the bathroom.", "tense": "perfect" },
+      { "german": "Wir werden das Auto putzen.", "english": "We will clean the car.", "tense": "future" }
+    ],
+    "tags": ["household", "hygiene", "daily routine"],
+    "notes": "Regular weak verb. Common in household and hygiene contexts. 'sich die Zähne putzen' (reflexive with dative for body parts)."
+  },
+  {
+    "id": "v59",
+    "infinitive": "waschen",
+    "englishMeaning": "to wash",
+    "alternativeMeanings": ["to launder"],
+    "forms": {
+      "infinitive": "waschen",
+      "present": { "ich": "wasche", "du": "wäschst", "erSieEs": "wäscht", "wir": "waschen", "ihr": "wascht", "sieSie": "waschen" },
+      "simplePast": "wusch",
+      "pastParticiple": "gewaschen",
+      "presentParticiple": "waschend",
+      "konjunktivII": "wüsche"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "household",
+    "level": "A1",
+    "reflexive": true,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich wasche die Wäsche.", "english": "I wash the laundry.", "tense": "present" },
+      { "german": "Er wusch sein Auto.", "english": "He washed his car.", "tense": "simplePast" },
+      { "german": "Hast du dir die Hände gewaschen?", "english": "Did you wash your hands?", "tense": "perfect" },
+      { "german": "Sie wird sich waschen.", "english": "She will wash herself.", "tense": "future" }
+    ],
+    "tags": ["household", "hygiene", "daily routine"],
+    "notes": "Vowel change a → ä in 2nd/3rd singular present. Reflexive 'sich waschen' = to wash oneself. Body parts take dative with reflexive."
+  },
+  {
+    "id": "v60",
+    "infinitive": "bauen",
+    "englishMeaning": "to build / construct",
+    "alternativeMeanings": ["to construct", "to erect"],
+    "forms": {
+      "infinitive": "bauen",
+      "present": { "ich": "baue", "du": "baust", "erSieEs": "baut", "wir": "bauen", "ihr": "baut", "sieSie": "bauen" },
+      "simplePast": "baute",
+      "pastParticiple": "gebaut",
+      "presentParticiple": "bauend",
+      "konjunktivII": "baute"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "action",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Sie bauen ein neues Haus.", "english": "They are building a new house.", "tense": "present" },
+      { "german": "Er baute eine Brücke.", "english": "He built a bridge.", "tense": "simplePast" },
+      { "german": "Die Stadt hat ein Stadion gebaut.", "english": "The city built a stadium.", "tense": "perfect" },
+      { "german": "Wir werden nächstes Jahr bauen.", "english": "We will build next year.", "tense": "future" }
+    ],
+    "tags": ["construction", "work", "housing"],
+    "notes": "Regular weak verb. Frequently used in construction and architecture contexts. 'auf etwas bauen' = to rely on something."
+  },
+  {
+    "id": "v61",
+    "infinitive": "fallen",
+    "englishMeaning": "to fall",
+    "alternativeMeanings": ["to drop", "to decline"],
+    "forms": {
+      "infinitive": "fallen",
+      "present": { "ich": "falle", "du": "fällst", "erSieEs": "fällt", "wir": "fallen", "ihr": "fallt", "sieSie": "fallen" },
+      "simplePast": "fiel",
+      "pastParticiple": "gefallen",
+      "presentParticiple": "fallend",
+      "konjunktivII": "fiele"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "motion",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Das Blatt fällt vom Baum.", "english": "The leaf falls from the tree.", "tense": "present" },
+      { "german": "Er fiel die Treppe hinunter.", "english": "He fell down the stairs.", "tense": "simplePast" },
+      { "german": "Sie ist hingefallen.", "english": "She fell over.", "tense": "perfect" },
+      { "german": "Die Temperatur wird fallen.", "english": "The temperature will drop.", "tense": "future" }
+    ],
+    "tags": ["motion", "accident", "nature"],
+    "notes": "Vowel change a → ä in 2nd/3rd singular. Takes 'sein'. Note: 'gefallen' also means 'to please' (Das gefällt mir = I like that)."
+  },
+  {
+    "id": "v62",
+    "infinitive": "steigen",
+    "englishMeaning": "to climb / rise",
+    "alternativeMeanings": ["to increase", "to board (a vehicle)"],
+    "forms": {
+      "infinitive": "steigen",
+      "present": { "ich": "steige", "du": "steigst", "erSieEs": "steigt", "wir": "steigen", "ihr": "steigt", "sieSie": "steigen" },
+      "simplePast": "stieg",
+      "pastParticiple": "gestiegen",
+      "presentParticiple": "steigend",
+      "konjunktivII": "stiege"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "motion",
+    "level": "B1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Er steigt auf den Berg.", "english": "He is climbing the mountain.", "tense": "present" },
+      { "german": "Die Preise stiegen.", "english": "The prices rose.", "tense": "simplePast" },
+      { "german": "Wir sind in den Bus gestiegen.", "english": "We got on the bus.", "tense": "perfect" },
+      { "german": "Die Temperaturen werden steigen.", "english": "The temperatures will rise.", "tense": "future" }
+    ],
+    "tags": ["motion", "nature", "transport", "economy"],
+    "notes": "Takes 'sein'. Used for climbing, rising prices, and boarding vehicles. Diphthong ei → ie in simple past."
+  },
+  {
+    "id": "v63",
+    "infinitive": "fliegen",
+    "englishMeaning": "to fly",
+    "alternativeMeanings": ["to travel by plane"],
+    "forms": {
+      "infinitive": "fliegen",
+      "present": { "ich": "fliege", "du": "fliegst", "erSieEs": "fliegt", "wir": "fliegen", "ihr": "fliegt", "sieSie": "fliegen" },
+      "simplePast": "flog",
+      "pastParticiple": "geflogen",
+      "presentParticiple": "fliegend",
+      "konjunktivII": "flöge"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "motion",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Der Vogel fliegt.", "english": "The bird is flying.", "tense": "present" },
+      { "german": "Sie flog nach New York.", "english": "She flew to New York.", "tense": "simplePast" },
+      { "german": "Wir sind nach Spanien geflogen.", "english": "We flew to Spain.", "tense": "perfect" },
+      { "german": "Er wird morgen fliegen.", "english": "He will fly tomorrow.", "tense": "future" }
+    ],
+    "tags": ["transport", "travel", "motion"],
+    "notes": "Takes 'sein' for directed motion. Strong verb with vowel change ie → o in simple past."
+  },
+  {
+    "id": "v64",
+    "infinitive": "schwimmen",
+    "englishMeaning": "to swim",
+    "alternativeMeanings": ["to float"],
+    "forms": {
+      "infinitive": "schwimmen",
+      "present": { "ich": "schwimme", "du": "schwimmst", "erSieEs": "schwimmt", "wir": "schwimmen", "ihr": "schwimmt", "sieSie": "schwimmen" },
+      "simplePast": "schwamm",
+      "pastParticiple": "geschwommen",
+      "presentParticiple": "schwimmend",
+      "konjunktivII": "schwömme"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "sport",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Ich schwimme gern.", "english": "I like swimming.", "tense": "present" },
+      { "german": "Er schwamm schnell.", "english": "He swam fast.", "tense": "simplePast" },
+      { "german": "Sie ist über den See geschwommen.", "english": "She swam across the lake.", "tense": "perfect" },
+      { "german": "Wir werden morgen schwimmen gehen.", "english": "We will go swimming tomorrow.", "tense": "future" }
+    ],
+    "tags": ["sport", "leisure", "water"],
+    "notes": "Takes 'sein' for directed motion. Uses 'haben' when expressing general activity without direction."
+  },
+  {
+    "id": "v65",
+    "infinitive": "tanzen",
+    "englishMeaning": "to dance",
+    "alternativeMeanings": [],
+    "forms": {
+      "infinitive": "tanzen",
+      "present": { "ich": "tanze", "du": "tanzt", "erSieEs": "tanzt", "wir": "tanzen", "ihr": "tanzt", "sieSie": "tanzen" },
+      "simplePast": "tanzte",
+      "pastParticiple": "getanzt",
+      "presentParticiple": "tanzend",
+      "konjunktivII": "tanzte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "leisure",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Sie tanzen auf der Party.", "english": "They are dancing at the party.", "tense": "present" },
+      { "german": "Er tanzte die ganze Nacht.", "english": "He danced all night.", "tense": "simplePast" },
+      { "german": "Wir haben Walzer getanzt.", "english": "We danced the waltz.", "tense": "perfect" },
+      { "german": "Sie wird beim Konzert tanzen.", "english": "She will dance at the concert.", "tense": "future" }
+    ],
+    "tags": ["leisure", "music", "social"],
+    "notes": "Regular weak verb. When expressing directed motion while dancing, takes 'sein': 'Er ist in den Saal getanzt'."
+  },
+  {
+    "id": "v66",
+    "infinitive": "singen",
+    "englishMeaning": "to sing",
+    "alternativeMeanings": [],
+    "forms": {
+      "infinitive": "singen",
+      "present": { "ich": "singe", "du": "singst", "erSieEs": "singt", "wir": "singen", "ihr": "singt", "sieSie": "singen" },
+      "simplePast": "sang",
+      "pastParticiple": "gesungen",
+      "presentParticiple": "singend",
+      "konjunktivII": "sänge"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "music",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Das Kind singt ein Lied.", "english": "The child sings a song.", "tense": "present" },
+      { "german": "Sie sang in der Kirche.", "english": "She sang in the church.", "tense": "simplePast" },
+      { "german": "Ich habe falsch gesungen.", "english": "I sang out of tune.", "tense": "perfect" },
+      { "german": "Wir werden zusammen singen.", "english": "We will sing together.", "tense": "future" }
+    ],
+    "tags": ["music", "leisure", "art"],
+    "notes": "Strong verb with vowel gradation i → a → u. Belongs to the same ablaut class as trinken, beginnen."
+  },
+  {
+    "id": "v67",
+    "infinitive": "hören",
+    "englishMeaning": "to hear / listen",
+    "alternativeMeanings": ["to listen to"],
+    "forms": {
+      "infinitive": "hören",
+      "present": { "ich": "höre", "du": "hörst", "erSieEs": "hört", "wir": "hören", "ihr": "hört", "sieSie": "hören" },
+      "simplePast": "hörte",
+      "pastParticiple": "gehört",
+      "presentParticiple": "hörend",
+      "konjunktivII": "hörte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "perception",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich höre Musik.", "english": "I listen to music.", "tense": "present" },
+      { "german": "Er hörte ein Geräusch.", "english": "He heard a noise.", "tense": "simplePast" },
+      { "german": "Hast du das gehört?", "english": "Did you hear that?", "tense": "perfect" },
+      { "german": "Sie wird Radio hören.", "english": "She will listen to the radio.", "tense": "future" }
+    ],
+    "tags": ["perception", "senses", "music"],
+    "notes": "Regular weak verb. Distinguish between hearing (passive: ich höre) and listening (active: ich höre zu / zuhören)."
+  },
+  {
+    "id": "v68",
+    "infinitive": "fühlen",
+    "englishMeaning": "to feel",
+    "alternativeMeanings": ["to sense", "to touch"],
+    "forms": {
+      "infinitive": "fühlen",
+      "present": { "ich": "fühle", "du": "fühlst", "erSieEs": "fühlt", "wir": "fühlen", "ihr": "fühlt", "sieSie": "fühlen" },
+      "simplePast": "fühlte",
+      "pastParticiple": "gefühlt",
+      "presentParticiple": "fühlend",
+      "konjunktivII": "fühlte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "perception",
+    "level": "A2",
+    "reflexive": true,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich fühle mich gut.", "english": "I feel well.", "tense": "present" },
+      { "german": "Er fühlte den Schmerz.", "english": "He felt the pain.", "tense": "simplePast" },
+      { "german": "Wie hast du dich gefühlt?", "english": "How did you feel?", "tense": "perfect" },
+      { "german": "Sie wird sich besser fühlen.", "english": "She will feel better.", "tense": "future" }
+    ],
+    "tags": ["perception", "health", "emotions"],
+    "notes": "Regular weak verb. Commonly used reflexively: 'sich fühlen' + adjective for emotional/physical states. Also transitive: 'etwas fühlen' (to feel something)."
+  },
+  {
+    "id": "v69",
+    "infinitive": "hoffen",
+    "englishMeaning": "to hope",
+    "alternativeMeanings": ["to wish"],
+    "forms": {
+      "infinitive": "hoffen",
+      "present": { "ich": "hoffe", "du": "hoffst", "erSieEs": "hofft", "wir": "hoffen", "ihr": "hofft", "sieSie": "hoffen" },
+      "simplePast": "hoffte",
+      "pastParticiple": "gehofft",
+      "presentParticiple": "hoffend",
+      "konjunktivII": "hoffte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "mental",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Ich hoffe, du kommst.", "english": "I hope you'll come.", "tense": "present" },
+      { "german": "Er hoffte auf eine Antwort.", "english": "He hoped for a reply.", "tense": "simplePast" },
+      { "german": "Wir haben das Beste gehofft.", "english": "We hoped for the best.", "tense": "perfect" },
+      { "german": "Sie wird auf Besserung hoffen.", "english": "She will hope for improvement.", "tense": "future" }
+    ],
+    "tags": ["mental", "emotions", "future"],
+    "notes": "Regular weak verb. Followed by 'dass' clause or 'auf + accusative' (to hope for something)."
+  },
+  {
+    "id": "v70",
+    "infinitive": "glauben",
+    "englishMeaning": "to believe / think",
+    "alternativeMeanings": ["to trust", "to suppose"],
+    "forms": {
+      "infinitive": "glauben",
+      "present": { "ich": "glaube", "du": "glaubst", "erSieEs": "glaubt", "wir": "glauben", "ihr": "glaubt", "sieSie": "glauben" },
+      "simplePast": "glaubte",
+      "pastParticiple": "geglaubt",
+      "presentParticiple": "glaubend",
+      "konjunktivII": "glaubte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "mental",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "dative" },
+    "examples": [
+      { "german": "Ich glaube dir.", "english": "I believe you.", "tense": "present" },
+      { "german": "Er glaubte an Gott.", "english": "He believed in God.", "tense": "simplePast" },
+      { "german": "Hast du das geglaubt?", "english": "Did you believe that?", "tense": "perfect" },
+      { "german": "Niemand wird das glauben.", "english": "Nobody will believe that.", "tense": "future" }
+    ],
+    "tags": ["mental", "opinion", "religion"],
+    "notes": "Regular weak verb. 'jemandem glauben' (dative) = to believe a person. 'an + accusative' = to believe in something. 'dass' clause for content."
+  },
+  {
+    "id": "v71",
+    "infinitive": "zeigen",
+    "englishMeaning": "to show / point",
+    "alternativeMeanings": ["to demonstrate", "to display"],
+    "forms": {
+      "infinitive": "zeigen",
+      "present": { "ich": "zeige", "du": "zeigst", "erSieEs": "zeigt", "wir": "zeigen", "ihr": "zeigt", "sieSie": "zeigen" },
+      "simplePast": "zeigte",
+      "pastParticiple": "gezeigt",
+      "presentParticiple": "zeigend",
+      "konjunktivII": "zeigte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "communication",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative+dative" },
+    "examples": [
+      { "german": "Ich zeige dir den Weg.", "english": "I'll show you the way.", "tense": "present" },
+      { "german": "Er zeigte ihr die Stadt.", "english": "He showed her the city.", "tense": "simplePast" },
+      { "german": "Sie hat mir die Fotos gezeigt.", "english": "She showed me the photos.", "tense": "perfect" },
+      { "german": "Wir werden euch das Ergebnis zeigen.", "english": "We will show you the result.", "tense": "future" }
+    ],
+    "tags": ["communication", "visual", "social"],
+    "notes": "Regular weak verb. Takes two objects: accusative (thing shown) + dative (person). 'auf + accusative' = to point to something."
+  },
+  {
+    "id": "v72",
+    "infinitive": "erklären",
+    "englishMeaning": "to explain",
+    "alternativeMeanings": ["to declare", "to clarify"],
+    "forms": {
+      "infinitive": "erklären",
+      "present": { "ich": "erkläre", "du": "erklärst", "erSieEs": "erklärt", "wir": "erklären", "ihr": "erklärt", "sieSie": "erklären" },
+      "simplePast": "erklärte",
+      "pastParticiple": "erklärt",
+      "presentParticiple": "erklärend",
+      "konjunktivII": "erklärte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "inseparable", "prefix": "er-" },
+    "type": "regular/weak",
+    "category": "communication",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "accusative+dative" },
+    "examples": [
+      { "german": "Kannst du mir das erklären?", "english": "Can you explain that to me?", "tense": "present" },
+      { "german": "Er erklärte die Aufgabe.", "english": "He explained the task.", "tense": "simplePast" },
+      { "german": "Sie hat alles erklärt.", "english": "She explained everything.", "tense": "perfect" },
+      { "german": "Der Lehrer wird das erklären.", "english": "The teacher will explain it.", "tense": "future" }
+    ],
+    "tags": ["communication", "school", "teaching"],
+    "notes": "Inseparable prefix 'er-'. No 'ge-' prefix in past participle. Used in both academic and everyday contexts."
+  },
+  {
+    "id": "v73",
+    "infinitive": "erzählen",
+    "englishMeaning": "to tell / narrate",
+    "alternativeMeanings": ["to recount", "to relate"],
+    "forms": {
+      "infinitive": "erzählen",
+      "present": { "ich": "erzähle", "du": "erzählst", "erSieEs": "erzählt", "wir": "erzählen", "ihr": "erzählt", "sieSie": "erzählen" },
+      "simplePast": "erzählte",
+      "pastParticiple": "erzählt",
+      "presentParticiple": "erzählend",
+      "konjunktivII": "erzählte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "inseparable", "prefix": "er-" },
+    "type": "regular/weak",
+    "category": "communication",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "dative+accusative" },
+    "examples": [
+      { "german": "Er erzählt eine Geschichte.", "english": "He is telling a story.", "tense": "present" },
+      { "german": "Sie erzählte von ihrer Reise.", "english": "She told about her trip.", "tense": "simplePast" },
+      { "german": "Hast du ihr alles erzählt?", "english": "Did you tell her everything?", "tense": "perfect" },
+      { "german": "Ich werde dir davon erzählen.", "english": "I will tell you about it.", "tense": "future" }
+    ],
+    "tags": ["communication", "storytelling", "social"],
+    "notes": "Inseparable prefix. Use 'von + dative' to narrate about something. More narrative than 'sagen'; implies telling a longer story."
+  },
+  {
+    "id": "v74",
+    "infinitive": "verlieren",
+    "englishMeaning": "to lose",
+    "alternativeMeanings": ["to misplace", "to be defeated"],
+    "forms": {
+      "infinitive": "verlieren",
+      "present": { "ich": "verliere", "du": "verlierst", "erSieEs": "verliert", "wir": "verlieren", "ihr": "verliert", "sieSie": "verlieren" },
+      "simplePast": "verlor",
+      "pastParticiple": "verloren",
+      "presentParticiple": "verlierend",
+      "konjunktivII": "verlöre"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "inseparable", "prefix": "ver-" },
+    "type": "irregular/strong",
+    "category": "action",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich verliere immer meinen Schlüssel.", "english": "I always lose my key.", "tense": "present" },
+      { "german": "Das Team verlor das Spiel.", "english": "The team lost the game.", "tense": "simplePast" },
+      { "german": "Er hat seine Arbeit verloren.", "english": "He lost his job.", "tense": "perfect" },
+      { "german": "Wir werden nicht verlieren.", "english": "We will not lose.", "tense": "future" }
+    ],
+    "tags": ["sport", "action", "negative outcome"],
+    "notes": "Inseparable prefix 'ver-'. Strong vowel change ie → o. Past participle 'verloren' also used in expression 'verloren gehen' (to get lost)."
+  },
+  {
+    "id": "v75",
+    "infinitive": "gewinnen",
+    "englishMeaning": "to win / gain",
+    "alternativeMeanings": ["to earn", "to extract"],
+    "forms": {
+      "infinitive": "gewinnen",
+      "present": { "ich": "gewinne", "du": "gewinnst", "erSieEs": "gewinnt", "wir": "gewinnen", "ihr": "gewinnt", "sieSie": "gewinnen" },
+      "simplePast": "gewann",
+      "pastParticiple": "gewonnen",
+      "presentParticiple": "gewinnend",
+      "konjunktivII": "gewänne"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "inseparable", "prefix": "ge-" },
+    "type": "irregular/strong",
+    "category": "action",
+    "level": "B1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Wir gewinnen das Spiel!", "english": "We're winning the game!", "tense": "present" },
+      { "german": "Er gewann den ersten Preis.", "english": "He won first prize.", "tense": "simplePast" },
+      { "german": "Sie hat das Turnier gewonnen.", "english": "She won the tournament.", "tense": "perfect" },
+      { "german": "Welches Team wird gewinnen?", "english": "Which team will win?", "tense": "future" }
+    ],
+    "tags": ["sport", "competition", "positive outcome"],
+    "notes": "Strong vowel change i → a → o. Note: 'ge-' here is the inseparable prefix (from Old High German origin), not the past participle marker."
+  },
+  {
+    "id": "v76",
+    "infinitive": "rechnen",
+    "englishMeaning": "to calculate / count",
+    "alternativeMeanings": ["to reckon", "to expect"],
+    "forms": {
+      "infinitive": "rechnen",
+      "present": { "ich": "rechne", "du": "rechnest", "erSieEs": "rechnet", "wir": "rechnen", "ihr": "rechnet", "sieSie": "rechnen" },
+      "simplePast": "rechnete",
+      "pastParticiple": "gerechnet",
+      "presentParticiple": "rechnend",
+      "konjunktivII": "rechnete"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "mental",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Die Kinder rechnen in der Schule.", "english": "The children do arithmetic at school.", "tense": "present" },
+      { "german": "Er rechnete die Kosten aus.", "english": "He calculated the costs.", "tense": "simplePast" },
+      { "german": "Hast du schon gerechnet?", "english": "Have you calculated yet?", "tense": "perfect" },
+      { "german": "Ich rechne mit einer Verspätung.", "english": "I'm expecting a delay.", "tense": "future" }
+    ],
+    "tags": ["school", "math", "work"],
+    "notes": "Regular weak verb with -e- insertion. 'mit etwas rechnen' = to expect/count on something. Common in school and business."
+  },
+  {
+    "id": "v77",
+    "infinitive": "treffen",
+    "englishMeaning": "to meet / hit",
+    "alternativeMeanings": ["to encounter", "to strike"],
+    "forms": {
+      "infinitive": "treffen",
+      "present": { "ich": "treffe", "du": "triffst", "erSieEs": "trifft", "wir": "treffen", "ihr": "trefft", "sieSie": "treffen" },
+      "simplePast": "traf",
+      "pastParticiple": "getroffen",
+      "presentParticiple": "treffend",
+      "konjunktivII": "träfe"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "irregular/strong",
+    "category": "social",
+    "level": "A1",
+    "reflexive": true,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich treffe mich heute mit ihr.", "english": "I'm meeting her today.", "tense": "present" },
+      { "german": "Er traf einen alten Freund.", "english": "He met an old friend.", "tense": "simplePast" },
+      { "german": "Wir haben uns im Café getroffen.", "english": "We met in the café.", "tense": "perfect" },
+      { "german": "Wann werden wir uns treffen?", "english": "When will we meet?", "tense": "future" }
+    ],
+    "tags": ["social", "daily life", "sport"],
+    "notes": "Vowel change e → i in 2nd/3rd singular present. Reflexive 'sich treffen' = to meet each other. Also used in sports for hitting a target."
+  },
+  {
+    "id": "v78",
+    "infinitive": "warten",
+    "englishMeaning": "to wait",
+    "alternativeMeanings": ["to await", "to bide"],
+    "forms": {
+      "infinitive": "warten",
+      "present": { "ich": "warte", "du": "wartest", "erSieEs": "wartet", "wir": "warten", "ihr": "wartet", "sieSie": "warten" },
+      "simplePast": "wartete",
+      "pastParticiple": "gewartet",
+      "presentParticiple": "wartend",
+      "konjunktivII": "wartete"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "action",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Ich warte auf den Bus.", "english": "I'm waiting for the bus.", "tense": "present" },
+      { "german": "Er wartete eine Stunde.", "english": "He waited an hour.", "tense": "simplePast" },
+      { "german": "Wie lange hast du gewartet?", "english": "How long did you wait?", "tense": "perfect" },
+      { "german": "Sie wird nicht lange warten.", "english": "She won't wait for long.", "tense": "future" }
+    ],
+    "tags": ["action", "transport", "daily life"],
+    "notes": "Regular weak verb with -e- insertion. Followed by 'auf + accusative' (to wait for something/someone)."
+  },
+  {
+    "id": "v79",
+    "infinitive": "reisen",
+    "englishMeaning": "to travel",
+    "alternativeMeanings": ["to journey", "to tour"],
+    "forms": {
+      "infinitive": "reisen",
+      "present": { "ich": "reise", "du": "reist", "erSieEs": "reist", "wir": "reisen", "ihr": "reist", "sieSie": "reisen" },
+      "simplePast": "reiste",
+      "pastParticiple": "gereist",
+      "presentParticiple": "reisend",
+      "konjunktivII": "reiste"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "motion",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Ich reise gern.", "english": "I like to travel.", "tense": "present" },
+      { "german": "Sie reiste durch Europa.", "english": "She traveled through Europe.", "tense": "simplePast" },
+      { "german": "Wir sind nach Asien gereist.", "english": "We traveled to Asia.", "tense": "perfect" },
+      { "german": "Er wird viel reisen.", "english": "He will travel a lot.", "tense": "future" }
+    ],
+    "tags": ["travel", "leisure", "motion"],
+    "notes": "Regular weak verb taking 'sein' for directed motion. 'durch + accusative' = through; 'nach + city/country' = to a destination."
+  },
+  {
+    "id": "v80",
+    "infinitive": "ankommen",
+    "englishMeaning": "to arrive",
+    "alternativeMeanings": ["to get there", "to depend on"],
+    "forms": {
+      "infinitive": "ankommen",
+      "present": { "ich": "komme an", "du": "kommst an", "erSieEs": "kommt an", "wir": "kommen an", "ihr": "kommt an", "sieSie": "kommen an" },
+      "simplePast": "kam an",
+      "pastParticiple": "angekommen",
+      "presentParticiple": "ankommend",
+      "konjunktivII": "käme an"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "separable", "prefix": "an-" },
+    "type": "irregular/strong (separable)",
+    "category": "motion",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Der Zug kommt um 15 Uhr an.", "english": "The train arrives at 3 pm.", "tense": "present" },
+      { "german": "Er kam spät an.", "english": "He arrived late.", "tense": "simplePast" },
+      { "german": "Wann bist du angekommen?", "english": "When did you arrive?", "tense": "perfect" },
+      { "german": "Das Paket wird morgen ankommen.", "english": "The package will arrive tomorrow.", "tense": "future" }
+    ],
+    "tags": ["motion", "transport", "travel"],
+    "notes": "Separable verb taking 'sein'. 'es kommt auf + accusative an' = it depends on. Very common in travel and scheduling contexts."
+  },
+  {
+    "id": "v81",
+    "infinitive": "abfahren",
+    "englishMeaning": "to depart / leave",
+    "alternativeMeanings": ["to drive off", "to set off"],
+    "forms": {
+      "infinitive": "abfahren",
+      "present": { "ich": "fahre ab", "du": "fährst ab", "erSieEs": "fährt ab", "wir": "fahren ab", "ihr": "fahrt ab", "sieSie": "fahren ab" },
+      "simplePast": "fuhr ab",
+      "pastParticiple": "abgefahren",
+      "presentParticiple": "abfahrend",
+      "konjunktivII": "führe ab"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "separable", "prefix": "ab-" },
+    "type": "irregular/strong (separable)",
+    "category": "motion",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Der Bus fährt um 9 Uhr ab.", "english": "The bus departs at 9 o'clock.", "tense": "present" },
+      { "german": "Der Zug fuhr pünktlich ab.", "english": "The train departed on time.", "tense": "simplePast" },
+      { "german": "Wann ist das Schiff abgefahren?", "english": "When did the ship depart?", "tense": "perfect" },
+      { "german": "Wir werden morgen früh abfahren.", "english": "We will set off early tomorrow.", "tense": "future" }
+    ],
+    "tags": ["transport", "travel", "motion"],
+    "notes": "Separable, takes 'sein'. Contrast with 'ankommen' (to arrive). Very common in public transport contexts."
+  },
+  {
+    "id": "v82",
+    "infinitive": "umsteigen",
+    "englishMeaning": "to change (transport) / transfer",
+    "alternativeMeanings": ["to switch vehicles"],
+    "forms": {
+      "infinitive": "umsteigen",
+      "present": { "ich": "steige um", "du": "steigst um", "erSieEs": "steigt um", "wir": "steigen um", "ihr": "steigt um", "sieSie": "steigen um" },
+      "simplePast": "stieg um",
+      "pastParticiple": "umgestiegen",
+      "presentParticiple": "umsteigend",
+      "konjunktivII": "stiege um"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "separable", "prefix": "um-" },
+    "type": "irregular/strong (separable)",
+    "category": "transport",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "In Frankfurt müssen Sie umsteigen.", "english": "You need to change trains in Frankfurt.", "tense": "present" },
+      { "german": "Wir stiegen in Köln um.", "english": "We changed trains in Cologne.", "tense": "simplePast" },
+      { "german": "Ich bin dreimal umgestiegen.", "english": "I changed trains three times.", "tense": "perfect" },
+      { "german": "Du wirst in Hamburg umsteigen.", "english": "You will change trains in Hamburg.", "tense": "future" }
+    ],
+    "tags": ["transport", "travel", "public transit"],
+    "notes": "Separable, takes 'sein'. Specifically used for changing between trains, buses, etc. Part of transport vocabulary."
+  },
+  {
+    "id": "v83",
+    "infinitive": "einladen",
+    "englishMeaning": "to invite",
+    "alternativeMeanings": ["to treat (pay for)"],
+    "forms": {
+      "infinitive": "einladen",
+      "present": { "ich": "lade ein", "du": "lädst ein", "erSieEs": "lädt ein", "wir": "laden ein", "ihr": "ladet ein", "sieSie": "laden ein" },
+      "simplePast": "lud ein",
+      "pastParticiple": "eingeladen",
+      "presentParticiple": "einladend",
+      "konjunktivII": "lüde ein"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "separable", "prefix": "ein-" },
+    "type": "irregular/strong (separable)",
+    "category": "social",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich lade dich zur Party ein.", "english": "I'm inviting you to the party.", "tense": "present" },
+      { "german": "Er lud alle Kollegen ein.", "english": "He invited all colleagues.", "tense": "simplePast" },
+      { "german": "Hast du sie eingeladen?", "english": "Did you invite her?", "tense": "perfect" },
+      { "german": "Ich werde dich zum Essen einladen.", "english": "I will invite you for dinner.", "tense": "future" }
+    ],
+    "tags": ["social", "events", "hospitality"],
+    "notes": "Separable, strong. Unusual: 2nd person singular present is 'du lädst' (vowel change a → ä). 'zu etwas einladen' = to invite to something."
+  },
+  {
+    "id": "v84",
+    "infinitive": "vorstellen",
+    "englishMeaning": "to introduce / imagine",
+    "alternativeMeanings": ["to present", "to conceive of"],
+    "forms": {
+      "infinitive": "vorstellen",
+      "present": { "ich": "stelle vor", "du": "stellst vor", "erSieEs": "stellt vor", "wir": "stellen vor", "ihr": "stellt vor", "sieSie": "stellen vor" },
+      "simplePast": "stellte vor",
+      "pastParticiple": "vorgestellt",
+      "presentParticiple": "vorstellend",
+      "konjunktivII": "stellte vor"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "separable", "prefix": "vor-" },
+    "type": "regular/weak (separable)",
+    "category": "social",
+    "level": "A1",
+    "reflexive": true,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich stelle mich vor.", "english": "I introduce myself.", "tense": "present" },
+      { "german": "Er stellte seine Freundin vor.", "english": "He introduced his girlfriend.", "tense": "simplePast" },
+      { "german": "Können Sie sich das vorstellen?", "english": "Can you imagine that?", "tense": "present" },
+      { "german": "Ich werde mich morgen vorstellen.", "english": "I will introduce myself tomorrow.", "tense": "future" }
+    ],
+    "tags": ["social", "introduction", "mental"],
+    "notes": "Separable. Two key meanings: 'jemanden vorstellen' = to introduce someone; 'sich etwas vorstellen' = to imagine something."
+  },
+  {
+    "id": "v85",
+    "infinitive": "ausruhen",
+    "englishMeaning": "to rest",
+    "alternativeMeanings": ["to relax", "to take a break"],
+    "forms": {
+      "infinitive": "ausruhen",
+      "present": { "ich": "ruhe aus", "du": "ruhst aus", "erSieEs": "ruht aus", "wir": "ruhen aus", "ihr": "ruht aus", "sieSie": "ruhen aus" },
+      "simplePast": "ruhte aus",
+      "pastParticiple": "ausgeruht",
+      "presentParticiple": "ausruhend",
+      "konjunktivII": "ruhte aus"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "separable", "prefix": "aus-" },
+    "type": "regular/weak (separable)",
+    "category": "daily routine",
+    "level": "A2",
+    "reflexive": true,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Ich ruhe mich aus.", "english": "I'm resting.", "tense": "present" },
+      { "german": "Er ruhte sich nach dem Sport aus.", "english": "He rested after sports.", "tense": "simplePast" },
+      { "german": "Hast du dich ausgeruht?", "english": "Have you rested?", "tense": "perfect" },
+      { "german": "Sie wird sich am Wochenende ausruhen.", "english": "She will rest on the weekend.", "tense": "future" }
+    ],
+    "tags": ["health", "daily routine", "leisure"],
+    "notes": "Separable, almost always used reflexively: 'sich ausruhen'. Adjective 'ausgeruht' (well-rested) is very common."
+  },
+  {
+    "id": "v86",
+    "infinitive": "umziehen",
+    "englishMeaning": "to move (home) / change clothes",
+    "alternativeMeanings": ["to relocate"],
+    "forms": {
+      "infinitive": "umziehen",
+      "present": { "ich": "ziehe um", "du": "ziehst um", "erSieEs": "zieht um", "wir": "ziehen um", "ihr": "zieht um", "sieSie": "ziehen um" },
+      "simplePast": "zog um",
+      "pastParticiple": "umgezogen",
+      "presentParticiple": "umziehend",
+      "konjunktivII": "zöge um"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "separable", "prefix": "um-" },
+    "type": "irregular/strong (separable)",
+    "category": "housing",
+    "level": "B1",
+    "reflexive": true,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Wir ziehen nach Berlin um.", "english": "We are moving to Berlin.", "tense": "present" },
+      { "german": "Er zog letztes Jahr um.", "english": "He moved last year.", "tense": "simplePast" },
+      { "german": "Ich bin dreimal umgezogen.", "english": "I have moved three times.", "tense": "perfect" },
+      { "german": "Sie wird sich nach der Arbeit umziehen.", "english": "She will change clothes after work.", "tense": "future" }
+    ],
+    "tags": ["housing", "daily life"],
+    "notes": "Separable, strong. Takes 'sein' for relocation; takes 'haben' in reflexive 'sich umziehen' (to change clothes). Different auxiliaries!"
+  },
+  {
+    "id": "v87",
+    "infinitive": "anrufen",
+    "englishMeaning": "to call / phone",
+    "alternativeMeanings": ["to telephone", "to ring"],
+    "forms": {
+      "infinitive": "anrufen",
+      "present": { "ich": "rufe an", "du": "rufst an", "erSieEs": "ruft an", "wir": "rufen an", "ihr": "ruft an", "sieSie": "rufen an" },
+      "simplePast": "rief an",
+      "pastParticiple": "angerufen",
+      "presentParticiple": "anrufend",
+      "konjunktivII": "riefe an"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "separable", "prefix": "an-" },
+    "type": "irregular/strong (separable)",
+    "category": "communication",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich rufe dich morgen an.", "english": "I'll call you tomorrow.", "tense": "present" },
+      { "german": "Er rief seine Mutter an.", "english": "He called his mother.", "tense": "simplePast" },
+      { "german": "Hat sie angerufen?", "english": "Did she call?", "tense": "perfect" },
+      { "german": "Wir werden das Büro anrufen.", "english": "We will call the office.", "tense": "future" }
+    ],
+    "tags": ["communication", "technology", "social"],
+    "notes": "Separable, strong. Diphthong change u → ie in simple past. Very common in daily communication."
+  },
+  {
+    "id": "v88",
+    "infinitive": "abholen",
+    "englishMeaning": "to pick up / collect",
+    "alternativeMeanings": ["to fetch"],
+    "forms": {
+      "infinitive": "abholen",
+      "present": { "ich": "hole ab", "du": "holst ab", "erSieEs": "holt ab", "wir": "holen ab", "ihr": "holt ab", "sieSie": "holen ab" },
+      "simplePast": "holte ab",
+      "pastParticiple": "abgeholt",
+      "presentParticiple": "abholend",
+      "konjunktivII": "holte ab"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "separable", "prefix": "ab-" },
+    "type": "regular/weak (separable)",
+    "category": "action",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich hole dich um 8 ab.", "english": "I'll pick you up at 8.", "tense": "present" },
+      { "german": "Er holte das Paket ab.", "english": "He collected the package.", "tense": "simplePast" },
+      { "german": "Sie hat mich vom Bahnhof abgeholt.", "english": "She picked me up from the station.", "tense": "perfect" },
+      { "german": "Wer wird dich abholen?", "english": "Who will pick you up?", "tense": "future" }
+    ],
+    "tags": ["transport", "social", "daily life"],
+    "notes": "Separable, regular. Very common in everyday German for collecting people or items."
+  },
+  {
+    "id": "v89",
+    "infinitive": "mitnehmen",
+    "englishMeaning": "to take along / bring",
+    "alternativeMeanings": ["to take with you", "to bring along"],
+    "forms": {
+      "infinitive": "mitnehmen",
+      "present": { "ich": "nehme mit", "du": "nimmst mit", "erSieEs": "nimmt mit", "wir": "nehmen mit", "ihr": "nehmt mit", "sieSie": "nehmen mit" },
+      "simplePast": "nahm mit",
+      "pastParticiple": "mitgenommen",
+      "presentParticiple": "mitnehmend",
+      "konjunktivII": "nähme mit"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "separable", "prefix": "mit-" },
+    "type": "irregular/strong (separable)",
+    "category": "action",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Nimm deinen Schirm mit!", "english": "Take your umbrella with you!", "tense": "present" },
+      { "german": "Er nahm die Kinder mit.", "english": "He took the children along.", "tense": "simplePast" },
+      { "german": "Ich habe dein Buch mitgenommen.", "english": "I took your book along.", "tense": "perfect" },
+      { "german": "Was wirst du mitnehmen?", "english": "What will you take along?", "tense": "future" }
+    ],
+    "tags": ["action", "transport", "daily life"],
+    "notes": "Separable strong verb (stem from 'nehmen'). Vowel change in singular present (nimmt mit). Used when taking something along on a journey."
+  },
+  {
+    "id": "v90",
+    "infinitive": "zurückkommen",
+    "englishMeaning": "to come back / return",
+    "alternativeMeanings": ["to get back"],
+    "forms": {
+      "infinitive": "zurückkommen",
+      "present": { "ich": "komme zurück", "du": "kommst zurück", "erSieEs": "kommt zurück", "wir": "kommen zurück", "ihr": "kommt zurück", "sieSie": "kommen zurück" },
+      "simplePast": "kam zurück",
+      "pastParticiple": "zurückgekommen",
+      "presentParticiple": "zurückkommend",
+      "konjunktivII": "käme zurück"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "separable", "prefix": "zurück-" },
+    "type": "irregular/strong (separable)",
+    "category": "motion",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Wann kommst du zurück?", "english": "When are you coming back?", "tense": "present" },
+      { "german": "Er kam spät zurück.", "english": "He came back late.", "tense": "simplePast" },
+      { "german": "Ich bin gerade zurückgekommen.", "english": "I just came back.", "tense": "perfect" },
+      { "german": "Sie wird bald zurückkommen.", "english": "She will come back soon.", "tense": "future" }
+    ],
+    "tags": ["motion", "travel", "daily life"],
+    "notes": "Separable verb (zurück- + kommen), takes 'sein'. Very frequent in everyday speech."
+  },
+  {
+    "id": "v91",
+    "infinitive": "stattfinden",
+    "englishMeaning": "to take place / occur",
+    "alternativeMeanings": ["to be held (event)"],
+    "forms": {
+      "infinitive": "stattfinden",
+      "present": { "ich": "finde statt", "du": "findest statt", "erSieEs": "findet statt", "wir": "finden statt", "ihr": "findet statt", "sieSie": "finden statt" },
+      "simplePast": "fand statt",
+      "pastParticiple": "stattgefunden",
+      "presentParticiple": "stattfindend",
+      "konjunktivII": "fände statt"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "separable", "prefix": "statt-" },
+    "type": "irregular/strong (separable)",
+    "category": "events",
+    "level": "B1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Das Konzert findet im Park statt.", "english": "The concert takes place in the park.", "tense": "present" },
+      { "german": "Die Konferenz fand letztes Jahr statt.", "english": "The conference took place last year.", "tense": "simplePast" },
+      { "german": "Das Meeting hat stattgefunden.", "english": "The meeting took place.", "tense": "perfect" },
+      { "german": "Das Festival wird im Sommer stattfinden.", "english": "The festival will take place in summer.", "tense": "future" }
+    ],
+    "tags": ["events", "formal", "organizing"],
+    "notes": "Separable strong verb. Always used without a personal subject (no reflexive). Common in formal contexts and event planning."
+  },
+  {
+    "id": "v92",
+    "infinitive": "aufpassen",
+    "englishMeaning": "to pay attention / watch out",
+    "alternativeMeanings": ["to look after", "to be careful"],
+    "forms": {
+      "infinitive": "aufpassen",
+      "present": { "ich": "passe auf", "du": "passt auf", "erSieEs": "passt auf", "wir": "passen auf", "ihr": "passt auf", "sieSie": "passen auf" },
+      "simplePast": "passte auf",
+      "pastParticiple": "aufgepasst",
+      "presentParticiple": "aufpassend",
+      "konjunktivII": "passte auf"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "separable", "prefix": "auf-" },
+    "type": "regular/weak (separable)",
+    "category": "action",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Pass auf!", "english": "Watch out!", "tense": "present" },
+      { "german": "Er passte auf die Kinder auf.", "english": "He looked after the children.", "tense": "simplePast" },
+      { "german": "Hast du aufgepasst?", "english": "Were you paying attention?", "tense": "perfect" },
+      { "german": "Du wirst aufpassen müssen.", "english": "You will need to be careful.", "tense": "future" }
+    ],
+    "tags": ["attention", "childcare", "safety"],
+    "notes": "Separable, regular. 'auf + accusative aufpassen' = to look after someone/something. Common warning command: 'Pass auf!'"
+  },
+  {
+    "id": "v93",
+    "infinitive": "nachdenken",
+    "englishMeaning": "to think about / reflect",
+    "alternativeMeanings": ["to contemplate", "to ponder"],
+    "forms": {
+      "infinitive": "nachdenken",
+      "present": { "ich": "denke nach", "du": "denkst nach", "erSieEs": "denkt nach", "wir": "denken nach", "ihr": "denkt nach", "sieSie": "denken nach" },
+      "simplePast": "dachte nach",
+      "pastParticiple": "nachgedacht",
+      "presentParticiple": "nachdenkend",
+      "konjunktivII": "dächte nach"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "separable", "prefix": "nach-" },
+    "type": "irregular (mixed, separable)",
+    "category": "mental",
+    "level": "B1",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Ich denke darüber nach.", "english": "I'm thinking about it.", "tense": "present" },
+      { "german": "Er dachte lange nach.", "english": "He thought for a long time.", "tense": "simplePast" },
+      { "german": "Hast du gut nachgedacht?", "english": "Did you think it through?", "tense": "perfect" },
+      { "german": "Sie wird es sich noch nachdenken.", "english": "She will think about it some more.", "tense": "future" }
+    ],
+    "tags": ["mental", "reflection", "decision-making"],
+    "notes": "Separable mixed verb (stem from 'denken': dachte). Used with 'über + accusative' for the topic of reflection."
+  },
+  {
+    "id": "v94",
+    "infinitive": "aufräumen",
+    "englishMeaning": "to tidy up / clean up",
+    "alternativeMeanings": ["to clear up", "to organize"],
+    "forms": {
+      "infinitive": "aufräumen",
+      "present": { "ich": "räume auf", "du": "räumst auf", "erSieEs": "räumt auf", "wir": "räumen auf", "ihr": "räumt auf", "sieSie": "räumen auf" },
+      "simplePast": "räumte auf",
+      "pastParticiple": "aufgeräumt",
+      "presentParticiple": "aufräumend",
+      "konjunktivII": "räumte auf"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "separable", "prefix": "auf-" },
+    "type": "regular/weak (separable)",
+    "category": "household",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich muss mein Zimmer aufräumen.", "english": "I have to tidy up my room.", "tense": "present" },
+      { "german": "Sie räumte die Küche auf.", "english": "She tidied up the kitchen.", "tense": "simplePast" },
+      { "german": "Hast du aufgeräumt?", "english": "Did you clean up?", "tense": "perfect" },
+      { "german": "Wir werden nach der Party aufräumen.", "english": "We will clean up after the party.", "tense": "future" }
+    ],
+    "tags": ["household", "organization", "daily routine"],
+    "notes": "Separable, regular. Adjective 'aufgeräumt' also means 'tidy' or 'in a good mood'. Common in household contexts."
+  },
+  {
+    "id": "v95",
+    "infinitive": "übernachten",
+    "englishMeaning": "to stay overnight / spend the night",
+    "alternativeMeanings": ["to sleep over"],
+    "forms": {
+      "infinitive": "übernachten",
+      "present": { "ich": "übernachte", "du": "übernachtest", "erSieEs": "übernachtet", "wir": "übernachten", "ihr": "übernachtet", "sieSie": "übernachten" },
+      "simplePast": "übernachtete",
+      "pastParticiple": "übernachtet",
+      "presentParticiple": "übernachtend",
+      "konjunktivII": "übernachtete"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "inseparable", "prefix": "über-" },
+    "type": "regular/weak",
+    "category": "travel",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "none" },
+    "examples": [
+      { "german": "Wir übernachten im Hotel.", "english": "We are staying overnight in the hotel.", "tense": "present" },
+      { "german": "Er übernachtete bei Freunden.", "english": "He stayed overnight with friends.", "tense": "simplePast" },
+      { "german": "Ich habe in Berlin übernachtet.", "english": "I spent the night in Berlin.", "tense": "perfect" },
+      { "german": "Sie wird im Zelt übernachten.", "english": "She will spend the night in a tent.", "tense": "future" }
+    ],
+    "tags": ["travel", "accommodation", "leisure"],
+    "notes": "Inseparable prefix 'über-'. Regular weak verb. Very common in travel and tourism vocabulary."
+  },
+  {
+    "id": "v96",
+    "infinitive": "bestellen",
+    "englishMeaning": "to order",
+    "alternativeMeanings": ["to book", "to commission"],
+    "forms": {
+      "infinitive": "bestellen",
+      "present": { "ich": "bestelle", "du": "bestellst", "erSieEs": "bestellt", "wir": "bestellen", "ihr": "bestellt", "sieSie": "bestellen" },
+      "simplePast": "bestellte",
+      "pastParticiple": "bestellt",
+      "presentParticiple": "bestellend",
+      "konjunktivII": "bestellte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "inseparable", "prefix": "be-" },
+    "type": "regular/weak",
+    "category": "commercial",
+    "level": "A1",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich bestelle einen Kaffee.", "english": "I order a coffee.", "tense": "present" },
+      { "german": "Er bestellte das falsche Gericht.", "english": "He ordered the wrong dish.", "tense": "simplePast" },
+      { "german": "Hast du schon bestellt?", "english": "Have you ordered already?", "tense": "perfect" },
+      { "german": "Wir werden ein Taxi bestellen.", "english": "We will order a taxi.", "tense": "future" }
+    ],
+    "tags": ["shopping", "restaurant", "commercial"],
+    "notes": "Inseparable 'be-'. Used for ordering food, online shopping, and booking services."
+  },
+  {
+    "id": "v97",
+    "infinitive": "reservieren",
+    "englishMeaning": "to reserve / book",
+    "alternativeMeanings": ["to set aside"],
+    "forms": {
+      "infinitive": "reservieren",
+      "present": { "ich": "reserviere", "du": "reservierst", "erSieEs": "reserviert", "wir": "reservieren", "ihr": "reserviert", "sieSie": "reservieren" },
+      "simplePast": "reservierte",
+      "pastParticiple": "reserviert",
+      "presentParticiple": "reservierend",
+      "konjunktivII": "reservierte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "commercial",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich möchte einen Tisch reservieren.", "english": "I would like to reserve a table.", "tense": "present" },
+      { "german": "Er reservierte ein Hotelzimmer.", "english": "He reserved a hotel room.", "tense": "simplePast" },
+      { "german": "Haben Sie reserviert?", "english": "Do you have a reservation?", "tense": "perfect" },
+      { "german": "Wir werden Plätze reservieren.", "english": "We will reserve seats.", "tense": "future" }
+    ],
+    "tags": ["travel", "restaurant", "commercial"],
+    "notes": "Regular weak verb from French. Common in restaurants, hotels, and transport. 'Haben Sie reserviert?' is a standard question."
+  },
+  {
+    "id": "v98",
+    "infinitive": "entscheiden",
+    "englishMeaning": "to decide",
+    "alternativeMeanings": ["to determine", "to settle"],
+    "forms": {
+      "infinitive": "entscheiden",
+      "present": { "ich": "entscheide", "du": "entscheidest", "erSieEs": "entscheidet", "wir": "entscheiden", "ihr": "entscheidet", "sieSie": "entscheiden" },
+      "simplePast": "entschied",
+      "pastParticiple": "entschieden",
+      "presentParticiple": "entscheidend",
+      "konjunktivII": "entschiede"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "inseparable", "prefix": "ent-" },
+    "type": "irregular/strong",
+    "category": "mental",
+    "level": "B1",
+    "reflexive": true,
+    "governs": { "case": "accusative" },
+    "examples": [
+      { "german": "Ich entscheide mich für das Blaue.", "english": "I decide on the blue one.", "tense": "present" },
+      { "german": "Er entschied sich schnell.", "english": "He decided quickly.", "tense": "simplePast" },
+      { "german": "Haben Sie sich entschieden?", "english": "Have you decided?", "tense": "perfect" },
+      { "german": "Wir werden es zusammen entscheiden.", "english": "We will decide together.", "tense": "future" }
+    ],
+    "tags": ["mental", "decision-making", "business"],
+    "notes": "Inseparable 'ent-'. Strong diphthong change ei → ie. Reflexive 'sich entscheiden für/gegen' = to decide for/against something."
+  },
+  {
+    "id": "v99",
+    "infinitive": "gehören",
+    "englishMeaning": "to belong to",
+    "alternativeMeanings": ["to be part of"],
+    "forms": {
+      "infinitive": "gehören",
+      "present": { "ich": "gehöre", "du": "gehörst", "erSieEs": "gehört", "wir": "gehören", "ihr": "gehört", "sieSie": "gehören" },
+      "simplePast": "gehörte",
+      "pastParticiple": "gehört",
+      "presentParticiple": "gehörend",
+      "konjunktivII": "gehörte"
+    },
+    "auxiliary": "haben",
+    "prefix": { "type": "inseparable", "prefix": "ge-" },
+    "type": "regular/weak",
+    "category": "possession",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "dative" },
+    "examples": [
+      { "german": "Dieses Buch gehört mir.", "english": "This book belongs to me.", "tense": "present" },
+      { "german": "Das Haus gehörte seiner Großmutter.", "english": "The house belonged to his grandmother.", "tense": "simplePast" },
+      { "german": "Wem hat das gehört?", "english": "Who did that belong to?", "tense": "perfect" },
+      { "german": "Das wird dir gehören.", "english": "That will belong to you.", "tense": "future" }
+    ],
+    "tags": ["possession", "ownership", "identity"],
+    "notes": "Inseparable 'ge-'. Governs dative: 'jemandem gehören'. Also used: 'zu etwas gehören' (to be part of something)."
+  },
+  {
+    "id": "v100",
+    "infinitive": "passieren",
+    "englishMeaning": "to happen / occur",
+    "alternativeMeanings": ["to pass (by)", "to cross"],
+    "forms": {
+      "infinitive": "passieren",
+      "present": { "ich": "passiere", "du": "passierst", "erSieEs": "passiert", "wir": "passieren", "ihr": "passiert", "sieSie": "passieren" },
+      "simplePast": "passierte",
+      "pastParticiple": "passiert",
+      "presentParticiple": "passierend",
+      "konjunktivII": "passierte"
+    },
+    "auxiliary": "sein",
+    "prefix": { "type": "none" },
+    "type": "regular/weak",
+    "category": "events",
+    "level": "A2",
+    "reflexive": false,
+    "governs": { "case": "dative" },
+    "examples": [
+      { "german": "Was passiert hier?", "english": "What is happening here?", "tense": "present" },
+      { "german": "Ein Unfall passierte auf der Autobahn.", "english": "An accident happened on the motorway.", "tense": "simplePast" },
+      { "german": "Das ist mir noch nie passiert.", "english": "That has never happened to me before.", "tense": "perfect" },
+      { "german": "Was wird als nächstes passieren?", "english": "What will happen next?", "tense": "future" }
+    ],
+    "tags": ["events", "daily life", "accidents"],
+    "notes": "Takes 'sein' for the meaning 'to happen'. Takes 'haben' when meaning 'to pass (a place)'. Governs dative for the affected person: 'mir passiert'."
+  }
+]
